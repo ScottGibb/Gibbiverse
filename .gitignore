@@ -1,0 +1,55 @@
+# Hugo build artifacts
+/public/
+/resources/_gen/
+/resources/
+hugo_stats.json
+
+# Hugo development files
+.hugo_build.lock
+
+# Node.js dependencies (if using npm/yarn for asset processing)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Hugo server data
+.hugo_build.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+
+# Build directories (alternative names sometimes used)
+/dist/
+/build/
+
+# Hugo module cache
+go.sum

@@ -1,0 +1,7 @@
+
+[submodule "content/posts"]
+	path = content/posts
+	url = git@github.com:ScottGibb/blog-posts.git
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
