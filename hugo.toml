@@ -3,6 +3,13 @@ languageCode = 'en-uk'
 title = 'Welcome to the Gibbiverse'
 theme = 'ananke'
 
+
+[params]
+  author = 'Scott Gibb'
+  description = 'A blog about tech, life, and everything in between.'
+  showReadingTime = true
+  mainSections = ['posts', 'page']
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
