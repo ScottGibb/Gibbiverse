@@ -2,7 +2,7 @@ name: Build and deploy
 on:
     push:
         tags:
-            - 'Blog:*'
+            - 'Blog-*'
 permissions:
   contents: read
   pages: write
