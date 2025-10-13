@@ -1,6 +1,3 @@
-[submodule "themes/ananke"]
-	path = themes/ananke
-	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
 [submodule "content"]
 	path = content
 	url = git@github.com:ScottGibb/blog-posts.git

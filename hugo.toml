@@ -1,46 +1,77 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-uk'
-title = 'Welcome to the Gibbiverse'
-theme = 'ananke'
+title = 'Gibbiverse'
+
+[module]
+[[module.imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
 
 [menu]
 
-  [[menu.main]]
-    name = "Posts"
-    url = "/posts/"
-    weight = 10
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 10
 
-  [[menu.main]]
-    name = "About Me"
-    url = "/pages/about-me/"
-    weight = 10
+[[menu.main]]
+name = "About Me"
+url = "/pages/about-me/"
+weight = 10
 
-  [[menu.main]]
-    name = "Open Source"
-    url = "/pages/open-source/"
-    weight = 10
+[[menu.main]]
+name = "Open Source"
+url = "/pages/open-source/"
+weight = 10
 
 [params]
- [params.ananke]
-    show_recent_posts = true
-    [params.ananke.social]
-    icon_path = "ananke/socials/%s.svg"
-      [params.ananke.social.follow]
-      networks = ["github", "Printables", "Thingiverse", "Youtube","Etzy","linkedin"]
-        [params.ananke.social.github]
-        username = "ScottGibb"
-        [params.ananke.social.youtube]
-        profilelink = "https://www.youtube.com/@scottgibb1402"
-        [params.ananke.social.linkedin]
-        profilelink = "https://www.linkedin.com/in/scott-gibb-ces/"
-        [params.ananke.social.Thingiverse]
-        profilelink = "https://www.thingiverse.com/ScottGibb"
-        icon_path = "assets/socials/thingiverse.svg"
-        [params.ananke.social.Printables]
-        profilelink = "https://www.printables.com/social/ScottGibb"
-  
-  [params.ananke.social.share]
-  icons = true
-  sharetext = true
-  networks = ["facebook", "linkedin", "email"]
+# site_logo = "/images/image.png" # This is currently too big
 
+
+[params.ananke]
+show_recent_posts = true
+[params.ananke.social]
+[params.ananke.social.follow]
+networks = [
+  "github",
+  "youtube",
+  "linkedin",
+  "etsy",
+  "thingiverse",
+  "printables",
+
+]
+# per-network profile/config (these live under params.ananke.social)
+[params.ananke.social.github]
+username = "ScottGibb"
+[params.ananke.social.youtube]
+profilelink = "https://www.youtube.com/@scottgibb1402"
+[params.ananke.social.linkedin]
+profilelink = "https://www.linkedin.com/in/scott-gibb-ces/"
+
+[params.ananke.social.networks.etsy]
+label = "Etsy"
+color = "#d23f3f"
+profile = "https://www.etsy.com/shop/ScottGibb"
+icon = "Etsy"
+
+[params.ananke.social.networks.thingiverse]
+label = "Thingiverse" 
+color = "#0645ad" 
+profile = "https://www.thingiverse.com/ScottGibb" 
+icon = "Thingiverse" 
+
+[params.ananke.social.networks.printables]
+label = "Printables"
+color = "#0077b5"
+profile = "https://www.printables.com/@ScottGibb_242109"
+icon =  "Printables"
+
+
+
+[params.ananke.social.share]
+icons = true
+sharetext = true
+networks = ["facebook", "linkedin", "email"]
