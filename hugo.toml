@@ -12,9 +12,13 @@ theme = 'ananke'
 
   [[menu.main]]
     name = "About Me"
-    url = "/pages/about-me/"   # or "/about/" if you create that page/slug
-    weight = 20
+    url = "/pages/about-me/"
+    weight = 10
 
+  [[menu.main]]
+    name = "Open Source"
+    url = "/pages/open-source/"
+    weight = 10
 
 [params]
  [params.ananke]
@@ -25,19 +29,18 @@ theme = 'ananke'
       networks = ["github", "Printables", "Thingiverse", "Youtube","Etzy","linkedin"]
         [params.ananke.social.github]
         username = "ScottGibb"
-        [params.ananke.social.Thingiverse]
-        profilelink = "https://www.thingiverse.com/ScottGibb"
-        icon = "thingiverse"
-        [params.ananke.social.Printables]
-        profilelink = "https://www.printables.com/social/ScottGibb"
         [params.ananke.social.youtube]
         profilelink = "https://www.youtube.com/@scottgibb1402"
         [params.ananke.social.linkedin]
         profilelink = "https://www.linkedin.com/in/scott-gibb-ces/"
+        [params.ananke.social.Thingiverse]
+        profilelink = "https://www.thingiverse.com/ScottGibb"
+        icon_path = "assets/socials/thingiverse.svg"
+        [params.ananke.social.Printables]
+        profilelink = "https://www.printables.com/social/ScottGibb"
+  
   [params.ananke.social.share]
   icons = true
   sharetext = true
   networks = ["facebook", "linkedin", "email"]
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+
