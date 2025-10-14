@@ -53,3 +53,5 @@ Thumbs.db
 
 # Hugo module cache
 go.sum
+
+megalinter-reports/
