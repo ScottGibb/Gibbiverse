@@ -18,6 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DART_SASS_VERSION: 1.93.2
+      PY_VERSION: 3.11.4
       GO_VERSION: 1.25.1
       HUGO_VERSION: 0.151.0
       NODE_VERSION: 22.18.0
@@ -37,6 +38,10 @@ jobs:
         uses: actions/setup-node@v5
         with:
           node-version: ${{ env.NODE_VERSION }}
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PY_VERSION }}
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -60,8 +65,14 @@ jobs:
         run: |
           echo "Dart Sass: $(sass --version)"
           echo "Go: $(go version)"
+          echo "Python: $(python --version)"
           echo "Hugo: $(hugo version)"
           echo "Node.js: $(node --version)"
+      - name: Install Python dependencies
+        run: |
+          cd link-fixer
+          uv sync
+          uv run main --path ./content --links ./content/links.yaml  --topics ./content/topics.yaml
       - name: Install Node.js dependencies
         run: |
           [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
