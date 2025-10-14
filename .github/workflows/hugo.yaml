@@ -73,7 +73,7 @@ jobs:
         run: |
           cd link-fixer
           uv sync
-          uv run main.py --path ../content --links ../content/links.yaml  --topics ../content/topics.yaml
+          uv run main.py --path ../content --links ../content/links.yaml  --topics ../content/topics.txt
           cd ..
       - name: Install Node.js dependencies
         run: |
