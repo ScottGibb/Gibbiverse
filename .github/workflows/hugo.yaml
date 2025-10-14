@@ -99,6 +99,16 @@ jobs:
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
+
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: ./public
+
+      - name: Zip site
+        run: zip -r site-${{ github.ref_name }}.zip ./public
+
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -109,13 +119,14 @@ jobs:
           release_name: Release ${{ github.ref_name }}
           draft: false
           prerelease: false
+
       - name: Upload Release Asset
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./public
+          asset_path: ./site-${{ github.ref_name }}.zip
           asset_name: site-${{ github.ref_name }}.zip
           asset_content_type: application/zip
 
