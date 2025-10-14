@@ -1,8 +1,8 @@
 name: Build and deploy
 on:
-    push:
-        tags:
-            - 'v*.*.*'
+  push:
+    tags:
+      - "v*.*.*"
 permissions:
   contents: write
   pages: write
@@ -70,8 +70,7 @@ jobs:
         with:
           path: ${{ runner.temp }}/hugo_cache
           key: hugo-${{ github.run_id }}
-          restore-keys:
-            hugo-
+          restore-keys: hugo-
       - name: Build the site
         run: |
           hugo \
