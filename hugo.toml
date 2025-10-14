@@ -54,7 +54,7 @@ profilelink = "https://www.linkedin.com/in/scott-gibb-ces/"
 [params.ananke.social.networks.etsy]
 label = "Etsy"
 color = "#d23f3f"
-profile = "https://www.etsy.com/shop/ScottGibb"
+profile = "https://www.etsy.com/shop/Scootyverse"
 icon = "Etsy"
 
 [params.ananke.social.networks.thingiverse]
