@@ -1,5 +1,5 @@
 [submodule "content"]
-	path = content
+	path = raw-content
 	url = git@github.com:ScottGibb/blog-posts.git
 [submodule "link-fixer"]
 	path = link-fixer
