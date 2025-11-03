@@ -1,6 +1,0 @@
-[submodule "content"]
-	path = raw-content
-	url = git@github.com:ScottGibb/blog-posts.git
-[submodule "link-fixer"]
-	path = link-fixer
-	url = git@github.com:ScottGibb/Gibbiverse-Link-Fixer.git
