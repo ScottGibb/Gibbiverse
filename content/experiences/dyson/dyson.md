@@ -9,7 +9,7 @@ title: Dyson
 draft: false
 ---
 
-![Dyson Logo](./Dyson%20Hairdryers.png)
+![Dyson Logo](/images/dyson_hairdryers.png)
 
 I still remember my first week on the New Product Innovation Software Team (NST): a buzzing workshop full of half-built prototypes, filament dust on the benches, and a calendar full of user trials. My role quickly became one of turning ambitious ideas into tangible, testable machines. I learned to tame fleets of Dockerized devices with **Balena**, wiring them together with **MQTT** so prototypes could chat reliably during field trials, and watching a messy lab setup become a repeatable deployment was oddly satisfying.
 
