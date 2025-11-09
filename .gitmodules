@@ -1,3 +1,9 @@
 [submodule "themes/hugo-embed-pdf-shortcode"]
 	path = themes/hugo-embed-pdf-shortcode
 	url = https://github.com/anvithks/hugo-embed-pdf-shortcode.git
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/hugo-flickity-carousel"]
+	path = themes/hugo-flickity-carousel
+	url = git@github.com:madskjeldgaard/hugo-flickity-carousel.git
