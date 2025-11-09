@@ -2,6 +2,9 @@ baseURL = 'https://scottgibb.github.io/Gibbiverse/'
 languageCode = 'en-uk'
 title = 'Gibbiverse'
 
+theme = ["hugo-embed-pdf-shortcode"]
+enableInlineShortcodes = true
+
 [module]
 [[module.imports]]
 disable = false
@@ -24,6 +27,16 @@ weight = 10
 [[menu.main]]
 name = "Open Source"
 url = "/pages/open-source/"
+weight = 10
+
+[[menu.main]]
+name = "My Experiences"
+url = "/experiences/"
+weight = 10
+
+[[menu.main]]
+name = "Presentations"
+url = "/presentations/"
 weight = 10
 
 [params]

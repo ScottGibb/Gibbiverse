@@ -2,7 +2,6 @@
 tags: []
 date: 2025-10-07
 title: Welcome to my Presentations
-draft: false
 ---
 
-This section of the blog contains all the presentations
+This section contains various presentations I have given on different topics.. Feel free to explore and view the slides and materials from each presentation.

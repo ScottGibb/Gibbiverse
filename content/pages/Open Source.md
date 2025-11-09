@@ -4,6 +4,7 @@ tags:
 - open-source
 - C
 - Rust
+- Python
 title: Open Source
 draft: false
 ---
