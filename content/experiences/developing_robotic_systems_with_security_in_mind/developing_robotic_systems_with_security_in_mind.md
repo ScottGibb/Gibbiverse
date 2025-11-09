@@ -10,4 +10,4 @@ title: Developing Robotics with Security in Mind
 draft: false
 ---
 
-![Carnegie Trust research day](/content/experiences/developing_robotic_systems_with_security_in_mind/carnegie_research.jpeg)
+![Carnegie Trust research day]()

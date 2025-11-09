@@ -3,10 +3,10 @@ tags:
 date: 2021-09-13
 title: Babcock
 draft: false
+featured_image: '/images/gohugo-default-sample-hero-image.jpg'
 ---
 
-{{< figure src="/images/babcock_demo_day.jpeg" title="Babcock Demo Day" width="400">}}
-![test](/images/logo.png)
+![test](/images/babcock_demo_day.jpeg)
 
 I remember walking into Babcock as a bright-eyed graduate with a spreadsheet of ambitions and very few answers. Eighteen months later I left with a toolbox of practical skills, a handful of improbable stories, and the odd singe mark on my soldering iron.
 
@@ -32,3 +32,5 @@ It wasn't glamorous every day, but it was honest work that taught me how systems
 {{< youtube 0RKpf3rK57I >}}
 
 {{< image-carousel images="[{ \"src\": \"images/babcock_demo_day.jpeg\", \"alt\": \"Image 1\"  }, { \"src\": \"images/logo.png\", \"alt\": \"Image 2\"  }]">}}
+
+{{< embed-pdf url="/pdfs/arm_who_is_scott_gibb.pdf" renderPageNum="1" >}}

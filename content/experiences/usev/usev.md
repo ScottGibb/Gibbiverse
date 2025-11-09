@@ -7,7 +7,7 @@ date: 2019-07-01
 title: University of Strathclyde Eco Vehicle
 draft: false
 ---
-![The University of Strathclyde Eco Vehicle](./USEV%20Track%20Day.jpeg)
+![The University of Strathclyde Eco Vehicle](/images/usev_track_day.jpeg)
 
 ## The Teams
 

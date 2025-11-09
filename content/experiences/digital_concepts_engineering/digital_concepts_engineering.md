@@ -9,7 +9,7 @@ title: Digital Concepts Engineering
 draft: false
 ---
 
-{{< figure src="/images/SG_logo.png" title="Illustration from Victor Hugo et son temps (1881)" >}}
+{{< figure src="/images/dce_logo.png" title="Illustration from Victor Hugo et son temps (1881)" >}}
 
 Represented Babcock on secondment with DCE to support rapid prototyping of embedded devices and increase stakeholder engagement.
 - Field tested multiple unmanned wheeled, tracked and legged vehicles.
