@@ -2,17 +2,9 @@ baseURL = 'https://scottgibb.github.io/Gibbiverse/'
 languageCode = 'en-uk'
 title = 'Gibbiverse'
 
-theme = ["hugo-embed-pdf-shortcode"]
+theme = ["ananke","hugo-embed-pdf-shortcode", "hugo-flickity-carousel"]
 enableInlineShortcodes = true
 
-[module]
-[[module.imports]]
-disable = false
-ignoreConfig = false
-ignoreImports = false
-path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
-
-[menu]
 
 [[menu.main]]
 name = "Posts"
