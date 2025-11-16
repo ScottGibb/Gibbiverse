@@ -5,4 +5,4 @@ title: Welcome to the Gibbiverse
 draft: false
 ---
 
-This is the blog for the Gibbiverse. Here you will find posts about my projects, tutorials, and other tech-related topics. Feel free to explore and read through the various articles.
+This is my personal website where I share my experiences, projects, and insights into the world of technology and engineering. Feel free to explore the various sections, including blog posts, project showcases, and more. Whether you're here to learn, collaborate, or just satisfy your curiosity, I hope you find something valuable during your visit.

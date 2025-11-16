@@ -7,7 +7,8 @@ draft: false
 
 ## Who Am I?
 
-<Need a Picture Here>
+![Scott Gibb](/images/experiences/dce/ghost_robotics.jpeg)
+
 My names Scott Gibb, Im a Computer and Electronics Engineer, I love to design and build things. I have a passion for 3D printing, electronics, programming, and all things tech.
 
 Im currently working as an Embedded Software Engineer at Arm, Living in Cambridge UK.
@@ -46,4 +47,4 @@ I decided to move into Dyson and the commercial space where I had a lot of fun d
 
 ### Arm
 
-In my latest adventure Ive Joined Arm and moved to Cambridge working within Cortex A development.
+In my latest adventure Ive Joined Arm and moved to Cambridge working in the Edge IoT Solutions Team. Watch this space for more updates on what Im working on!
