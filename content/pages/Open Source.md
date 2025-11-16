@@ -7,11 +7,12 @@ tags:
 - Python
 title: Open Source
 draft: false
+featured_image: '/images/pages/open_source.png'
 ---
 
 ## My Open Source Contributions
 
-I am a strong believer in the power of open source software and its ability to drive innovation and collaboration within the tech community. Over the years, I have contributed to various open source projects, both as a developer and as a user.
+I am a strong believer in the power of open source software and its ability to drive innovation and collaboration within the tech community. Over the years, I have contributed to various open source projects, both as a developer and as a user. You can find the projects below and on my [GitHub profile](https://github.com/scottgibb).
 
 ## Projects
 

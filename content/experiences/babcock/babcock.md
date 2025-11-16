@@ -1,36 +1,44 @@
 ---
 tags:
+ - C
+ - C++
+ - Python
+ - Excel
+ - Linux
+ - Printed Circuit Board
+ - Kicad
 date: 2021-09-13
 title: Babcock
 draft: false
-featured_image: '/images/gohugo-default-sample-hero-image.jpg'
+featured_image: '/images/experiences/babcock/dce_follow_me.png'
 ---
 
-![test](/images/babcock_demo_day.jpeg)
+![test](/images/experiences/babcock/babcock_demo_day.jpeg)
 
-I remember walking into Babcock as a bright-eyed graduate with a spreadsheet of ambitions and very few answers. Eighteen months later I left with a toolbox of practical skills, a handful of improbable stories, and the odd singe mark on my soldering iron.
+I joined Babcock as an Electronic and Electrical Graduate, after finishing my MEng at the University of Strathclyde in Computer and Electronic Systems. It involved a relocation from Glasgow to Bristol and the beginning of my career.
 
-I finished the graduate scheme early and was quietly swept into the R&D team. Overnight the problems changed: instead of reading spec sheets I was integrating military-grade GPS units, pairing IP radios to custom localization stacks, and teaching small μUGVs how to know where they were. The challenge wasn't only technical — it was getting software and hardware to agree on what 'here' looked like.
+My first placement as an graduate engineer was the ACMS team in which I was reviewing wiring diagrams and cable management for Server Racks. I then went on to seek further oppertunities at the company, focusing on Robotics and Autonomy and this is where I reached out to Sam Duffield in the Technology, Design and Innovation Team, marking the start of my Robotics career.
 
-One week I was knee-deep in PCB footprints, the next I was in a muddy field running field tests for UGVs and UAVs. Those field tests were a crucible — the kit didn't care about tidy lab conditions. It taught me to design for mess: robust power rails, sensible connectors, and error-handling that worked when the weather didn't.
+## Technology Design and Innovation
 
-I also ran workshops on Continuous Integration and Deployment. I learned to explain why automated tests matter to a room that usually talks about torque and telemetry. Turning CI/CD from an abstract ideal into a practical benefit (faster iterations, fewer burned boards) changed how teams shipped features.
+The TDI team was responsible for working with small-medium enterprises. Babcock was/is primarily known to be a System Integrator as such they dont do much development of internal systems, their focus is on the development of joining lots of intellectual property from other companies. TDI's purpose was to go liase with these companies and create working business relations.
 
-Another unexpected part of the job was people. I spent a lot of time working with small and medium enterprises — suppliers, specialists, and teams with expertise we leaned on. I learned how to turn technical questions into pragmatic requirements and how to keep relationships that outlasted individual projects.
+This is where I travelled the most in my career, between going to Spain, Italy, France for various conferences and meeting with various companies in the Defence industry.
 
-If I had to sum it up: Babcock taught me to bridge worlds. I learned to move from schematic to flight test, from a line of Rust or C to a vehicle that has to survive a field trial, and from an architecture diagram to a supplier who's actually going to deliver next Tuesday. Those are the lessons I still reach for when a problem looks like a gap between two teams.
+### Demo Day
 
-- Roles and highlights:
+One of the most interesting ventures I had was the development of Micro Unmanned Ground Vehicles or uUGVs. The mission was to develop a working autonomy stack so that the team could fully understand what partners we had to integrate with and what business capabilities we needed.
 
-- Field Test Engineer — ran UGV and UAV trials that pushed prototypes beyond the lab.
-- Hardware design — created schematics and PCB layouts for power and sensor integration on μUGVs.
-- Systems integration — connected telematics, radios and robotics stacks to make reliable demos.
-- Workshops & mentoring — taught CI/CD and pragmatic software practices to hardware teams.
+![Micro Unmanned Ground Vehicle](/images/experiences/babcock/uUGV.jpeg)
 
-It wasn't glamorous every day, but it was honest work that taught me how systems behave when theory meets the real world — and that's the kind of experience that sticks.
+This involved working with Additive manufacturing technologies such as 3D printing as well as Printed Circuit Board design with Kicad. Not only that we developed C++ integration software for our Robots to connect to the internal geolacion mapping software so that we could control these robots in the field.
+
+### Secondment
+
+Since I was a graduate during this time, I was fortunate enough to go on a secondment in which I worked with one of Babcocks Business partners [Digital Concepts Engineering](/experiences/digital_concepts_engineering/digital_concepts_engineering/). A truelly exciting secondment in which I successfully prototyped a Universal Robot controller.
+
+Upon completion of the secondment I came back to Babcock and then was promoted to Robotics and Embedded Software Engineer, where I stopped my placements with the company and fully integrated to the Technology Design and Innovation Team.
 
 {{< youtube 0RKpf3rK57I >}}
 
-{{< image-carousel images="[{ \"src\": \"images/babcock_demo_day.jpeg\", \"alt\": \"Image 1\"  }, { \"src\": \"images/logo.png\", \"alt\": \"Image 2\"  }]">}}
-
-{{< embed-pdf url="/pdfs/arm_who_is_scott_gibb.pdf" renderPageNum="1" >}}
+{{< image-carousel images="[{ \"src\": \"images/experiences/babcock/babcock_demo_day.jpeg\", \"alt\": \"Demo Day\"  }, { \"src\": \"images/experiences/babcock/dce_follow_me.png\", \"alt\": \"DCE Follow Me\"  }, { \"src\": \"images/experiences/babcock/uUGV.jpeg\", \"alt\": \"Babcock UUGV\"  }]">}}
