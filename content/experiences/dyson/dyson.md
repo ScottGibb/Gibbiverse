@@ -14,9 +14,12 @@ tags:
 date: 2023-08-21
 title: Dyson
 draft: false
+featured_image: '/images/experiences/dyson/dyson_hairdryers.png'
 ---
 
 After leaving Babcock I shortly went on to join Dyson where I joined the New Production Innovation Software Team NST. A multidisciplinary team focusing on Embedded all way to the Cloud and data science. During this time I developed numerous prototypes and worked on a variety of technologies from Baremetal microcontrollers to embedded linux prototypes. Due to IP restrictions I cannot go into any details of the prototypes. But watch this space as these prototypes should hopefully turn into products soon...
+
+![Dyson devices](/images/experiences/dyson/dyson_devices.png)
 
 ## Open Source
 
