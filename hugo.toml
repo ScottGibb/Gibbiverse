@@ -1,15 +1,10 @@
-baseURL = 'https://example.org/'
+
 languageCode = 'en-uk'
 title = 'Gibbiverse'
 
-[module]
-[[module.imports]]
-disable = false
-ignoreConfig = false
-ignoreImports = false
-path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
+theme = ["ananke","hugo-embed-pdf-shortcode", "hugo-flickity-carousel"]
+enableInlineShortcodes = true
 
-[menu]
 
 [[menu.main]]
 name = "Posts"
@@ -24,6 +19,16 @@ weight = 10
 [[menu.main]]
 name = "Open Source"
 url = "/pages/open-source/"
+weight = 10
+
+[[menu.main]]
+name = "My Experiences"
+url = "/experiences/"
+weight = 10
+
+[[menu.main]]
+name = "Presentations"
+url = "/presentations/"
 weight = 10
 
 [params]
@@ -54,7 +59,7 @@ profilelink = "https://www.linkedin.com/in/scott-gibb-ces/"
 [params.ananke.social.networks.etsy]
 label = "Etsy"
 color = "#d23f3f"
-profile = "https://www.etsy.com/shop/ScottGibb"
+profile = "https://www.etsy.com/shop/Scootyverse"
 icon = "Etsy"
 
 [params.ananke.social.networks.thingiverse]
