@@ -5,7 +5,7 @@ tags:
 - Arduino
 date: 2019-07-01
 title: University of Strathclyde Eco Vehicle
-featured_image: /images/experiences/usev/usev_track_day.jpeg
+featured_image: /images/experiences/university_of_strathclyde.png
 draft: false
 ---
 

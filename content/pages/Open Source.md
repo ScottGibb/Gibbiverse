@@ -7,7 +7,7 @@ tags:
 - Python
 title: Open Source
 draft: false
-featured_image: '/images/pages/open_source.png'
+featured_image: '/images/ai/ai_banner_2.png'
 ---
 
 ## My Open Source Contributions
