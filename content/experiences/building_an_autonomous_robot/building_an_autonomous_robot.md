@@ -7,7 +7,7 @@ tags:
 - Java
 date: 2020-06-08
 title: Building an Autonomous Robot
-featured_image: '/images/experiences/building_an_autonomous_robot/building_an_autonomous_robot.jpeg'
+featured_image: /images/experiences/university_of_strathclyde.png
 draft: false
 ---
 

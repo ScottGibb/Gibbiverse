@@ -3,6 +3,7 @@ tags:
 date: 2025-10-07
 title: About Me
 draft: false
+featured_image: '/images/ai/ai_banner_1.png'
 ---
 
 ## Who Am I?
@@ -48,3 +49,5 @@ I decided to move into Dyson and the commercial space where I had a lot of fun d
 ### Arm
 
 In my latest adventure Ive Joined Arm and moved to Cambridge working in the Edge IoT Solutions Team. Watch this space for more updates on what Im working on!
+
+![Experiences](/images/ai/my_experiences_banner.png)
