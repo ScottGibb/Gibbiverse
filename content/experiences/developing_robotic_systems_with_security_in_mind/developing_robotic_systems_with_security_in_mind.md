@@ -18,7 +18,7 @@ The Carnegie Trust is a small independent foundation that provides research gran
 
 During this internship, I worked with various robotic platforms, including drones and ground robots, to assess their network security vulnerabilities. I utilized tools such as Wireshark for traffic analysis and developed custom scripts in Python to automate the detection of potential security flaws. My research focused on identifying patterns in network traffic that could reveal what the robot was doing, such as its movements, tasks, and interactions with other devices.
 
-## Reasearch Proposal
+## Research Proposal
 
 The proposal I submitted for this internship can be found below:
 {{< embed-pdf url="/images/experiences/developing_robotic_systems_with_security_in_mind/research_proposal.pdf" >}}
