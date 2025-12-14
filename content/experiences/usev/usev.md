@@ -146,7 +146,7 @@ The Motor Controller was the most critical board in the vehicle:
 - CAN-connected to the rest of the car
 It was designed in Eagle and written in C using System Workbench. Watching it behave correctly for the first time was deeply satisfying. Hats off to [Scott Lawson](https://www.linkedin.com/in/scott-lawson-ee-eng/) for the mentoring and designing this bit of kit.
 
-![Motor Controller](/images/experiences/usev/usev_motor_controller.jpeg)
+![Motor Controller](/images/experiences/usev/motor_controller.jpeg)
 
 ---
 
@@ -175,4 +175,4 @@ It taught me:
 
 Most importantly, it made engineering fun — and that’s something I’ve tried to carry forward into everything I’ve worked on since.
 
-{{< image-carousel images="[{ \"src\": \"/images/experiences/usev/usev_track_day.jpeg\", \"alt\": \"USEV Track Day\"  }, { \"src\": \"/images/experiences/usev/usev_motor_controller.jpeg\", \"alt\": \"motor controller\"  }, { \"src\": \"/images/experiences/usev/usev_on_the_track.jpeg\", \"alt\": \"One The Track\"  }, { \"src\": \"/images/experiences/usev/usev_track_day_debug.jpeg\", \"alt\": \"Track Debug\"  },  { \"src\": \"/images/experiences/usev/usev_team_photo.jpeg\", \"alt\": \"Team Photo\"  }]">}}
+{{< image-carousel images="[{ \"src\": \"/images/experiences/usev/usev_track_day.jpeg\", \"alt\": \"USEV Track Day\"  }, { \"src\": \"/images/experiences/usev/motor_controller.jpeg\", \"alt\": \"motor controller\"  }, { \"src\": \"/images/experiences/usev/usev_on_the_track.jpeg\", \"alt\": \"One The Track\"  }, { \"src\": \"/images/experiences/usev/usev_track_day_debug.jpeg\", \"alt\": \"Track Debug\"  },  { \"src\": \"/images/experiences/usev/usev_team_photo.jpeg\", \"alt\": \"Team Photo\"  }]">}}

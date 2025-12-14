@@ -39,6 +39,6 @@ I landed a secondment with one of Babcock’s business partners, [Digital Concep
 
 After completing the secondment, I returned to Babcock and was promoted to Robotics and Embedded Software Engineer—ending my placements and fully joining the Technology Design and Innovation Team.
 
-{{< image-carousel images="[{ \"src\": \"images/experiences/babcock/babcock_demo_day.jpeg\", \"alt\": \"Demo Day\"  }, { \"src\": \"images/experiences/babcock/dce_follow_me.png\", \"alt\": \"DCE Follow Me\"  }, { \"src\": \"images/experiences/babcock/uUGV.jpeg\", \"alt\": \"Babcock UUGV\"}, { \"src\": \"images/experiences/babcock/eurosatory.png\", \"alt\": \"Eurosatory\"  }]">}}
+{{< image-carousel images="[{ \"src\": \"/images/experiences/babcock/babcock_demo_day.jpeg\", \"alt\": \"Demo Day\"  }, { \"src\": \"/images/experiences/babcock/dce_follow_me.png\", \"alt\": \"DCE Follow Me\"  }, { \"src\": \"/images/experiences/babcock/uUGV.jpeg\", \"alt\": \"Babcock UUGV\"}, { \"src\": \"/images/experiences/babcock/eurosatory.png\", \"alt\": \"Eurosatory\"  }]">}}
 
 From here, I went on to explore the product manufacturing space and went on to work at [Dyson](/experiences/dyson/dyson) as an Embedded Software Engineer.
