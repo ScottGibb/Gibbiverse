@@ -54,4 +54,7 @@ Thumbs.db
 # Hugo module cache
 go.sum
 
-megalinter-reports/*.tar.gz
+megalinter-reports/
+
+# Downloaded artifacts
+*.tar.gz
