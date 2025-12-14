@@ -6,6 +6,6 @@ draft: false
 featured_image: '/images/experiences/arm/cortex_cpu.png'
 ---
 
-When I joined Arm as an Embedded Software Engineer. I did a short introduction presentation about myself to the team. Here are the slides from that presentation. It mainly covers content from my hobbies such as running and tough mudder and a few honourables mentions such as my time as intern at the University of Strathclyde and of course my first Robotics project WALL-E.
+When I joined Arm as an Embedded Software Engineer, I kicked things off with a quick introduction presentation for the team. Here are the slides I shared, featuring a mix of my hobbies (like running and Tough Mudder), a few honourable mentions from my time as an intern at the University of Strathclyde, and of course, my very first robotics project: WALL-E. You might even spot a much younger me in there too!
 
 {{< embed-pdf url="/pdfs/arm_who_is_scott_gibb.pdf" renderPageNum="1" >}}

@@ -13,12 +13,12 @@ weight = 10
 
 [[menu.main]]
 name = "About Me"
-url = "/pages/about-me/"
+url = "/pages/about_me/"
 weight = 10
 
 [[menu.main]]
 name = "Open Source"
-url = "/pages/open-source/"
+url = "/pages/open_source/"
 weight = 10
 
 [[menu.main]]

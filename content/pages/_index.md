@@ -5,4 +5,4 @@ title: Pages
 draft: false
 ---
 
-Below are all the pages that I have written. Feel free to explore and read through the various articles.
+All the pages I’ve written — a compact index to help you dive in. Browse by topic, pick a title, and enjoy the read.
