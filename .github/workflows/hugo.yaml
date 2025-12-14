@@ -31,12 +31,6 @@ jobs:
         with:
           go-version: ${{ env.GO_VERSION }}
           cache: false
-      - name: "Set up Python"
-        uses: actions/setup-python@v6
-        with:
-          python-version-file: "./link-fixer/pyproject.toml"
-      - name: Install uv
-        uses: astral-sh/setup-uv@v7
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -53,14 +47,7 @@ jobs:
       - name: Verify installations
         run: |
           echo "Go: $(go version)"
-          echo "Python: $(python --version)"
           echo "Hugo: $(hugo version)"
-      - name: Install Python dependencies
-        run: |
-          cd link-fixer
-          uv sync
-          uv run main.py --path ../content --links ../content/links.yaml  --topics ../content/topics.txt
-          cd ..
       - name: Configure Git
         run: |
           git config core.quotepath false
