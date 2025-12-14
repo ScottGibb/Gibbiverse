@@ -6,7 +6,7 @@ tags:
 - Rust
 - Python
 title: Open Source
-draft: true
+draft: false
 featured_image: '/images/ai/ai_banner_2.png'
 ---
 
