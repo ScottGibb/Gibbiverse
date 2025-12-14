@@ -2,7 +2,7 @@
 
 ## Summary
 
-Welcome to **Gibbiverse** – the static site generator powering Scott Gibb's personal technical blog and portfolio website! 
+Welcome to **Gibbiverse** – the static site generator powering Scott Gibb's personal technical blog and portfolio website!
 
 This Hugo-based website showcases:
 
