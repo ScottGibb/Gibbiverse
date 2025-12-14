@@ -43,7 +43,6 @@ Let's dive in with some code examples and see how the embedded-hal works in prac
 To get started, we need to set up our `Cargo.toml` with the necessary dependencies. We'll include `embedded-hal` and `embedded-hal-async`—but we won't include any platform-specific HALs like `esp-hal` or `stm32-hal`. Those implement the traits for us; we're only concerned with *using* the traits.
 
 ```toml
-## Links
 #A extract from the AP33772S-rs Cargo.toml file
 [features]
 default = ["sync"]
