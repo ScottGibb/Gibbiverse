@@ -11,7 +11,7 @@ featured_image: /images/experiences/university_of_strathclyde.png
 draft: false
 ---
 
-When I was the University of Strathclyde, studying Computer and Electronic Systems, in my fourth year (Bachelors), I self suggested a project involving the creation of an Autonomous Robot. A very Ambituous goal in which I wanted to cover the construction of a robot, including 3D printing chassis mount, designing and assembling electronics and of course writing the embedded software. A very ambituous goal, one in which could of done with narrowing the scope.
+When I was the University of Strathclyde, studying Computer and Electronic Systems, in my fourth year (Bachelors), I self suggested a project involving the creation of an Autonomous Robot. A very Ambitious goal in which I wanted to cover the construction of a robot, including 3D printing chassis mount, designing and assembling electronics and of course writing the embedded software. A very ambitious goal, one in which could have done with narrowing the scope.
 
 The robot shown below is the exploded view of the robot, is the completed hardware assembly, it consisted of 5 Printed Circuit Boards developed in Eagle and manufactured by JLCPCB. Sadly I started developing this robot during the Pandemic, so assembly and progress was slow, however I was fortunate enough to get an paid Internship for this robot to ensure the development of the robot. This carried on for three months into the summer.
 
