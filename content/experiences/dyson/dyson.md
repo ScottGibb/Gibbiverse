@@ -17,21 +17,26 @@ draft: false
 featured_image: '/images/experiences/dyson/dyson_hairdryers.png'
 ---
 
-After leaving Babcock I shortly went on to join Dyson where I joined the New Production Innovation Software Team NST. A multidisciplinary team focusing on Embedded all way to the Cloud and data science. During this time I developed numerous prototypes and worked on a variety of technologies from Baremetal microcontrollers to embedded linux prototypes. Due to IP restrictions I cannot go into any details of the prototypes. But watch this space as these prototypes should hopefully turn into products soon...
+After leaving [Babcock](/experiences/babcock/babcock), I joined **Dyson** as part of the **New Product Innovation Software Team (NST)**, a multidisciplinary group working across the entire technology stack—from embedded systems and application development through to cloud services and data science. During my time in the team, I developed numerous prototypes and explored a wide range of technologies, from bare-metal microcontrollers to embedded Linux platforms.
+
+Due to IP restrictions, I’m unable to share specific details about the prototypes, their architectures, or their intended applications. However, *watch this space*—several of these early concepts are making their way toward full product development.
 
 ![Dyson devices](/images/experiences/dyson/dyson_devices.png)
 
 ## Open Source
 
-One of the responsibilites I had whilst at Dyson was to help shape and contribute to their Open Source. I alongside some very talented Engineers (Pete Kubiak and James Sizeland), contributed to many Rust open source projects such as Trouble and Embassy, as well as creating our own Open source which can be shown on the Dyson GitHub organisation.
+One of my responsibilities at Dyson was helping to shape and contribute to the company’s **open-source strategy**. Working alongside highly talented engineers such as [Pete Kubiak](https://www.linkedin.com/in/pete-kubiak-9252a3216/) and [James Sizeland](https://www.linkedin.com/in/james-sizeland-02530256/), I contributed to several Rust open-source ecosystems, including projects like [Trouble](https://github.com/embassy-rs/trouble) and [Embassy](https://github.com/embassy-rs/embassy). We also developed and released a range of open-source drivers and libraries, many of which are available through the [Dyson GitHub organisation](https://github.com/dysonltd).
 
 ## Technical Mentorship and Line Management
 
-During my time there I progressed to managing individuals alongside mentoring them a very fun and exciting time in my career where I hopefully made life long connections. My responsibilites for both are outlined belowx
+During my time at Dyson, I had the opportunity to both mentor and line-manage team members—an incredibly rewarding stage in my career where I hope I built lasting connections. My responsibilities in each role are outlined below:
 
-- Kaylan (mentee)
-  - I was responsible for Kaylan during his placement in my team, focusing on ensuring he had the right tools to succeed and ensuring that he was learning the skills needed for an embedded engineer but also the skills he wished to develop.
-- Tom  (Line Managed)
-  - With Tom it was slightly different in that Tom was further ahead in his career, so was less about skill development but ensuring he can be in the right place to suceed and push himself further.
+- **[Kaylan Ruparellia](https://www.linkedin.com/in/kaylan-ruparellia-619696213/) (Mentee)**  
+  I supported Kaylan throughout his placement in our team, ensuring he had the tools, guidance, and opportunities needed to succeed. My focus was not only on developing his core embedded engineering skills, but also on helping him grow in the specific areas he was personally motivated to explore.
 
-To my Landrace and Tamworth team members I wish you all the best and hope that you have went on to further and complete your ambitions.
+- **Tom Flaherty (Line Managed)**  
+  Working with Tom was slightly different. As someone further along in his career, my role centred less on foundational skill-building and more on creating the conditions for him to thrive—ensuring he had the right environment, challenges, and direction to continue progressing.
+
+To my **Landrace** and **Tamworth** team members: I wish you all the very best, and I hope each of you has gone on to achieve your ambitions.
+
+After an exciting period at Dyson, I took the next step in my career and joined [Arm](/experiences/arm/arm) as an Embedded Software Engineer in the Edge IoT Solutions team.

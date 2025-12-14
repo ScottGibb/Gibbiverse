@@ -15,30 +15,30 @@ featured_image: '/images/experiences/babcock/dce_follow_me.png'
 
 ![test](/images/experiences/babcock/babcock_demo_day.jpeg)
 
-I joined Babcock as an Electronic and Electrical Graduate, after finishing my MEng at the University of Strathclyde in Computer and Electronic Systems. It involved a relocation from Glasgow to Bristol and the beginning of my career.
+After finishing my MEng in Computer and Electronic Systems at the University of Strathclyde, I joined Babcock as an Electronic and Electrical Graduate. This meant relocating from Glasgow to Bristol and officially kicking off my engineering career.
 
-My first placement as an graduate engineer was the ACMS team in which I was reviewing wiring diagrams and cable management for Server Racks. I then went on to seek further oppertunities at the company, focusing on Robotics and Autonomy and this is where I reached out to Sam Duffield in the Technology, Design and Innovation Team, marking the start of my Robotics career.
+My first placement was with the ACMS team, where I reviewed wiring diagrams and managed cabling for server racks. Eager for new challenges, I soon set my sights on Robotics and Autonomy—reaching out to [Sam Duffield](https://www.linkedin.com/in/sam-duffield/) and [Harry Bulman](https://www.linkedin.com/in/henry-harry-bulman/) in the Technology, Design and Innovation Team. That move marked the real start of my robotics journey.
 
 ## Technology Design and Innovation
 
-The TDI team was responsible for working with small-medium enterprises. Babcock was/is primarily known to be a System Integrator as such they dont do much development of internal systems, their focus is on the development of joining lots of intellectual property from other companies. TDI's purpose was to go liase with these companies and create working business relations.
+The TDI team focused on collaborating with small and medium enterprises. Since Babcock is primarily a system integrator, they don’t develop many internal systems—instead, their strength lies in bringing together intellectual property from a range of companies. TDI’s role was to liaise with these partners, build strong business relationships, and understand their capabilities to see how Babcock could integrate their technologies into larger solutions. This gave me the chance to work with a huge variety of companies and tech, from drone systems and unmanned ground vehicles to computer vision, positioning systems, quantum enabled encryption, and all sorts of defence-related innovations.
 
-This is where I travelled the most in my career, between going to Spain, Italy, France for various conferences and meeting with various companies in the Defence industry.
+This was also the most travel-heavy part of my career—jetting off to Spain, Italy, France, and beyond for conferences and meetings with companies across the defence industry.
 
 ### Demo Day
 
-One of the most interesting ventures I had was the development of Micro Unmanned Ground Vehicles or uUGVs. The mission was to develop a working autonomy stack so that the team could fully understand what partners we had to integrate with and what business capabilities we needed.
+One of the most fascinating projects I worked on was developing Micro Unmanned Ground Vehicles (uUGVs). Our goal was to build a working autonomy stack—not just to show off cool robotics, but to really understand which partners we’d need to integrate with and what capabilities the business required.
 
 ![Micro Unmanned Ground Vehicle](/images/experiences/babcock/uUGV.jpeg)
 
-This involved working with Additive manufacturing technologies such as 3D printing as well as Printed Circuit Board design with Kicad. Not only that we developed C++ integration software for our Robots to connect to the internal geolacion mapping software so that we could control these robots in the field.
+This meant diving into additive manufacturing with 3D printing, designing custom PCBs in KiCad, and writing C++ integration software to connect our robots to internal geolocation mapping systems—so we could actually control these machines out in the field.
 
 ### Secondment
 
-Since I was a graduate during this time, I was fortunate enough to go on a secondment in which I worked with one of Babcocks Business partners [Digital Concepts Engineering](/experiences/digital_concepts_engineering/digital_concepts_engineering/). A truelly exciting secondment in which I successfully prototyped a Universal Robot controller.
+I landed a secondment with one of Babcock’s business partners, [Digital Concepts Engineering](/experiences/digital_concepts_engineering/digital_concepts_engineering/). It was an awesome experience where I successfully prototyped a Universal Robot controller capabale of controlling their various robotic platforms, including tracked vehicles, wheeled vehicles such as HX60 and the Ford Ranger.
 
-Upon completion of the secondment I came back to Babcock and then was promoted to Robotics and Embedded Software Engineer, where I stopped my placements with the company and fully integrated to the Technology Design and Innovation Team.
+After completing the secondment, I returned to Babcock and was promoted to Robotics and Embedded Software Engineer—ending my placements and fully joining the Technology Design and Innovation Team.
 
-{{< youtube 0RKpf3rK57I >}}
+{{< image-carousel images="[{ \"src\": \"images/experiences/babcock/babcock_demo_day.jpeg\", \"alt\": \"Demo Day\"  }, { \"src\": \"images/experiences/babcock/dce_follow_me.png\", \"alt\": \"DCE Follow Me\"  }, { \"src\": \"images/experiences/babcock/uUGV.jpeg\", \"alt\": \"Babcock UUGV\"}, { \"src\": \"images/experiences/babcock/eurosatory.png\", \"alt\": \"Eurosatory\"  }]">}}
 
-{{< image-carousel images="[{ \"src\": \"images/experiences/babcock/babcock_demo_day.jpeg\", \"alt\": \"Demo Day\"  }, { \"src\": \"images/experiences/babcock/dce_follow_me.png\", \"alt\": \"DCE Follow Me\"  }, { \"src\": \"images/experiences/babcock/uUGV.jpeg\", \"alt\": \"Babcock UUGV\"  }]">}}
+From here, I went on to explore the product manufacturing space and went on to work at [Dyson](/experiences/dyson/dyson) as an Embedded Software Engineer.
