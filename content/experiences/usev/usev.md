@@ -111,7 +111,7 @@ Handled things like:
 
 - Throttle (12‑bit)
 - Brake input (12‑bit)
-- Temperatures and  Motor Controllercritical flags
+- Temperatures and Motor Controller critical flags
 
 Nodes:
 
