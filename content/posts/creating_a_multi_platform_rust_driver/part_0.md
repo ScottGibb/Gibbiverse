@@ -23,7 +23,7 @@ This landing page gives a high-level overview of what I learned building multi-p
 
 ## 📚 Series Stages
 
-Weve split this series into manageable parts, each focusing on a key aspect of multi-platform Rust driver development:
+We've split this series into manageable parts, each focusing on a key aspect of multi-platform Rust driver development:
 
 - [Part 1: Embedded HAL](/posts/creating_a_multi_platform_rust_driver/part_1)
 - *(More parts coming soon…)*
