@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/ScottGibb/Gibbiverse/compare/v0.2.0...v0.2.1) (2025-12-15)
+
+
+### Bug Fixes
+
+* attempt to sort URLs ([8724133](https://github.com/ScottGibb/Gibbiverse/commit/8724133e588beed9a93acae1d1e6bfa3852ba4fa))
+
 ## [0.2.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.1.3...v0.2.0) (2025-12-15)
 
 ### Features
