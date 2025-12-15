@@ -2,12 +2,10 @@
 
 ## [0.2.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.1.3...v0.2.0) (2025-12-15)
 
-
 ### Features
 
 * **ci:** add release please ([dfde955](https://github.com/ScottGibb/Gibbiverse/commit/dfde955dcd8fe4326c0a2865cb74dcce9317eed6))
 * **ci:** Update Dependabot workflow for auto-merging ([bda56ff](https://github.com/ScottGibb/Gibbiverse/commit/bda56ff1942dd19b816981deabbbf814a1324cb1))
-
 
 ### Bug Fixes
 
