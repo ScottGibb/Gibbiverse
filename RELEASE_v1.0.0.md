@@ -27,7 +27,9 @@ This release includes:
 
 ## Next Steps
 
-To complete the release process, the tag needs to be pushed to the remote repository. This requires permissions that are not available in the automated environment.
+To complete the release process, the tag needs to be pushed to the remote repository. 
+
+**Note**: This repository has protection rules that prevent automated tag creation. The tag must be pushed manually by a repository maintainer with appropriate permissions.
 
 ### For Maintainers
 
