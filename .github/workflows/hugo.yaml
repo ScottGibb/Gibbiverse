@@ -64,7 +64,7 @@ jobs:
             --gc \
             --minify \
             --printPathWarning \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            # --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
       - name: Cache save
         id: cache-save
