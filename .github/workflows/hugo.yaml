@@ -64,7 +64,6 @@ jobs:
             --gc \
             --minify \
             --printPathWarning \
-            --cacheDir "${{ runner.temp }}/hugo_cache"
       - name: Cache save
         id: cache-save
         uses: actions/cache/save@v5
