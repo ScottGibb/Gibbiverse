@@ -4,7 +4,7 @@ title = 'Gibbiverse'
 theme = ["ananke","hugo-embed-pdf-shortcode", "hugo-flickity-carousel"]
 enableInlineShortcodes = true
 canonifyURLs = true
-
+relativeURLs = true
 
 [[menu.main]]
 name = "Posts"
