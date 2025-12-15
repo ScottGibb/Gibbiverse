@@ -1,7 +1,6 @@
 
 languageCode = 'en-uk'
 title = 'Gibbiverse'
-baseURL = "https://ScottGibb.github.io/"
 theme = ["ananke","hugo-embed-pdf-shortcode", "hugo-flickity-carousel"]
 enableInlineShortcodes = true
 
@@ -80,3 +79,7 @@ icon =  "Printables"
 icons = true
 sharetext = true
 networks = ["facebook", "linkedin", "email"]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
