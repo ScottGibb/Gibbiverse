@@ -3,6 +3,7 @@ languageCode = 'en-uk'
 title = 'Gibbiverse'
 theme = ["ananke","hugo-embed-pdf-shortcode", "hugo-flickity-carousel"]
 enableInlineShortcodes = true
+canonifyURLs = true
 
 
 [[menu.main]]
