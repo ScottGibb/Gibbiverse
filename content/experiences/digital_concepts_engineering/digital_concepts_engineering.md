@@ -14,7 +14,7 @@ During my time as an Electrical Graduate, I was seconded to a small but highly i
 
 Shown below is their [**X Series platform**](https://dconcepts.co.uk/products/x-series/), one of the tracked robotic vehicles I had the opportunity to work with. It is a modular, ruggedised platform capable of supporting a wide range of sensors, payloads, and mission-specific equipment.
 
-![DCE X-Series](/images/experiences/dce/dce_logo.png)
+![DCE X-Series](/images/experiences/dce/dce_x_series_logo.png)
 
 ## The Task
 
@@ -37,4 +37,4 @@ I also had the opportunity to travel to **Italy** to support one of DCE’s cust
 
 Beyond that, I attended several defence technology conferences and field demonstrations, giving me exposure to the latest advancements in autonomous systems, robotics, and military innovation.
 
-{{< image-carousel images="[{ \"src\": \"/images/experiences/dce/dce_logo.png\", \"alt\": \"DCE Logo\"  }, { \"src\": \"/images/experiences/dce/dce_x_series.png\", \"alt\": \"DCE X Series\"  }, { \"src\": \"/images/experiences/dce/ghost_robotics.jpeg\", \"alt\": \"Ghost Robotics\"  }, { \"src\": \"/images/experiences/dce/hx60.jpeg\", \"alt\": \"HX60\"  }, { \"src\": \"/images/experiences/dce/x_series_garage.png\", \"alt\": \"X Series Garage\"  }]">}}
+{{< image-carousel images="[{ \"src\": \"/images/experiences/dce/dce_x_series_logo.png\", \"alt\": \"DCE Logo\"  }, { \"src\": \"/images/experiences/dce/dce_x_series.png\", \"alt\": \"DCE X Series\"  }, { \"src\": \"/images/experiences/dce/ghost_robotics.jpeg\", \"alt\": \"Ghost Robotics\"  }, { \"src\": \"/images/experiences/dce/hx60.jpeg\", \"alt\": \"HX60\"  }, { \"src\": \"/images/experiences/dce/x_series_garage.png\", \"alt\": \"X Series Garage\"  }]">}}
