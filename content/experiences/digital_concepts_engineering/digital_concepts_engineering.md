@@ -7,7 +7,7 @@ tags:
 date: 2022-07-04
 title: Digital Concepts Engineering
 draft: false
-featured_image: '/images/experiences/dce/dce_x_series.png'
+featured_image: '/images/experiences/dce/dce_x_series_logo.png'
 ---
 
 During my time as an Electrical Graduate, I was seconded to a small but highly innovative startup called [Digital Concepts Engineering (DCE)](https://dconcepts.co.uk/). Their business model focused on retrofitting existing military and commercial vehicles converting them into unmanned or fully autonomous platforms. They operated across a diverse range of sectors, including Defence, Healthcare, Nuclear, and Agriculture, making it a fascinating environment to work in.
