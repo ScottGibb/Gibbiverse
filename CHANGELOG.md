@@ -2,7 +2,6 @@
 
 ## [0.2.3](https://github.com/ScottGibb/Gibbiverse/compare/v0.2.2...v0.2.3) (2025-12-15)
 
-
 ### Bug Fixes
 
 * dce banner path ([9867a83](https://github.com/ScottGibb/Gibbiverse/commit/9867a832192e2d5ef788dc71681f1653a1ce9649))
