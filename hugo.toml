@@ -1,7 +1,7 @@
 
 languageCode = 'en-uk'
 title = 'Gibbiverse'
-baseURL = "https://ScottGibb.github.io/Gibbiverse/"
+baseURL = "https://ScottGibb.github.io/"
 theme = ["ananke","hugo-embed-pdf-shortcode", "hugo-flickity-carousel"]
 enableInlineShortcodes = true
 
