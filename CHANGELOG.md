@@ -2,13 +2,11 @@
 
 ## [0.2.2](https://github.com/ScottGibb/Gibbiverse/compare/v0.2.1...v0.2.2) (2025-12-15)
 
-
 ### Bug Fixes
 
 * add canonify urls ([3581613](https://github.com/ScottGibb/Gibbiverse/commit/358161357dd17fb4dec43357896565b6dee7cf99))
 
 ## [0.2.1](https://github.com/ScottGibb/Gibbiverse/compare/v0.2.0...v0.2.1) (2025-12-15)
-
 
 ### Bug Fixes
 
