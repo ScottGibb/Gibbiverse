@@ -37,8 +37,12 @@ I also had the opportunity to travel to **Italy** to support one of DCE’s cust
 
 Beyond that, I attended several defence technology conferences and field demonstrations, giving me exposure to the latest advancements in autonomous systems, robotics, and military innovation.
 
-{{< image-carousel images="[{ \"src\": \"/images/experiences/dce/dce_logo.png\", \"alt\": \"DCE Logo\"  }, { \"src\": \"/images/experiences/dce/dce_x_series_logo.png\", \"alt\": \"DCE X Series\"  }, { \"src\": \"/images/experiences/dce/ghost_robotics.jpeg\", \"alt\": \"Ghost Robotics\"  }, { \"src\": \"/images/experiences/dce/hx60.jpeg\", \"alt\": \"HX60\"  }, { \"src\": \"/images/experiences/dce/x_series_garage.png\", \"alt\": \"X Series Garage\"  }]">}}
+<!-- {{< image-carousel images="[{ \"src\": \"/images/experiences/dce/dce_logo.png\", \"alt\": \"DCE Logo\"  }, { \"src\": \"/images/experiences/dce/dce_x_series_logo.png\", \"alt\": \"DCE X Series\"  }, { \"src\": \"/images/experiences/dce/ghost_robotics.jpeg\", \"alt\": \"Ghost Robotics\"  }, { \"src\": \"/images/experiences/dce/hx60.jpeg\", \"alt\": \"HX60\"  }, { \"src\": \"/images/experiences/dce/x_series_garage.png\", \"alt\": \"X Series Garage\"  }]">}} -->
 
-{{< details summary="See the details" >}}
-This is a **bold** word.
-{{< /details >}}
+{{< carousel
+  "/images/experiences/dce/dce_logo.png|Digital Concepts Engineering"
+  "/images/experiences/dce/dce_x_series_logo.png| X Series Vehicles"
+  "/images/experiences/dce/ghost_robotics.jpeg|Ghost Robotics Quadruped"
+  "/images/experiences/dce/hx60.jpeg|DCE HX60 Vehicle"
+  "/images/experiences/dce/x_series_garage.png|X Series Vehicle Garage"
+>}}
