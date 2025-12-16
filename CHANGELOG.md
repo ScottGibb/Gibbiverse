@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.2.3...v0.3.0) (2025-12-16)
+
+
+### Features
+
+* Add Author archtype ([951ab2a](https://github.com/ScottGibb/Gibbiverse/commit/951ab2a1bf501169962d1055fb4c1fef3683a3dc))
+* **dyson:** Add more mentioning of open source contributions ([8f4baa3](https://github.com/ScottGibb/Gibbiverse/commit/8f4baa3b9f4b17819626c865ccb1c9b6055aced1))
+
 ## [0.2.3](https://github.com/ScottGibb/Gibbiverse/compare/v0.2.2...v0.2.3) (2025-12-15)
 
 ### Bug Fixes
