@@ -1,5 +1,7 @@
 # Gibbiverse
 
+[![MegaLinter](https://github.com/ScottGibb/Gibbiverse/actions/workflows/mega-linter.yaml/badge.svg)](https://github.com/ScottGibb/Gibbiverse/actions/workflows/mega-linter.yaml)
+
 ## Summary
 
 Welcome to **Gibbiverse** – the static site generator powering Scott Gibb's personal technical blog and portfolio website!
