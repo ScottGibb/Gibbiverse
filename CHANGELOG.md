@@ -2,7 +2,6 @@
 
 ## [0.4.1](https://github.com/ScottGibb/Gibbiverse/compare/v0.4.0...v0.4.1) (2025-12-17)
 
-
 ### Bug Fixes
 
 * added missing inline shortcodes for embed PDF ([5a9f7f2](https://github.com/ScottGibb/Gibbiverse/commit/5a9f7f21cb6f12851d528b804e7fabbc908dbe4b))
