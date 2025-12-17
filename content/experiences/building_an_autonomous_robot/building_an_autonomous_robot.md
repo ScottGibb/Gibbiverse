@@ -39,7 +39,11 @@ A fun experience I had with the robot was when I was experimenting with PID cont
 
 ## Images
 
-{{< image-carousel images="[{ \"src\": \"/images/experiences/building_an_autonomous_robot/building_an_autonomous_robot.jpeg\", \"alt\": \"Robot (Front)\"  }, { \"src\": \"/images/experiences/building_an_autonomous_robot/robot_exploded.jpeg\", \"alt\": \"Image 2\"  }, { \"src\": \"/images/experiences/building_an_autonomous_robot/robot_front.jpeg\", \"alt\": \"Image 2\"  }, { \"src\": \"/images/experiences/building_an_autonomous_robot/robot_open_roof.jpeg\", \"alt\": \"Image 2\"  }]">}}
+{{<Carousel
+  "/images/experiences/building_an_autonomous_robot/building_an_autonomous_robot.jpeg|Robot (Front)"
+  "/images/experiences/building_an_autonomous_robot/robot_exploded.jpeg|Exploded View"
+  "/images/experiences/building_an_autonomous_robot/robot_front.jpeg|Robot Front View"
+  "/images/experiences/building_an_autonomous_robot/robot_open_roof.jpeg|Robot with Roof Off">}}
 
 ## Dissertation
 

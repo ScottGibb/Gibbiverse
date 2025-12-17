@@ -4,6 +4,3 @@
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
-[submodule "themes/hugo-flickity-carousel"]
-	path = themes/hugo-flickity-carousel
-	url = git@github.com:madskjeldgaard/hugo-flickity-carousel.git
