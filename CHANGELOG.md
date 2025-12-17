@@ -2,7 +2,6 @@
 
 ## [0.4.3](https://github.com/ScottGibb/Gibbiverse/compare/v0.4.2...v0.4.3) (2025-12-17)
 
-
 ### Bug Fixes
 
 * forcing a patch release ([45dbf0d](https://github.com/ScottGibb/Gibbiverse/commit/45dbf0dca06cd31624db0e6a7b627703f95a2a53))
