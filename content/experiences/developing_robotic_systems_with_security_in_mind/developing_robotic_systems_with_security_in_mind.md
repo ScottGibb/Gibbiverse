@@ -21,9 +21,9 @@ During this internship, I worked with various robotic platforms, including drone
 ## Research Proposal
 
 The proposal I submitted for this internship can be found below:
-{{< embed-pdf url="/images/experiences/developing_robotic_systems_with_security_in_mind/research_proposal.pdf" >}}
+{{< embed-pdf url="./research_proposal.pdf" >}}
 
 ## Presentation
 
 The presentation I delivered at the end of the internship can be found below:
-{{< embed-pdf url="/images/experiences/developing_robotic_systems_with_security_in_mind/poster.pdf" >}}
+{{< embed-pdf url="./poster.pdf" >}}
