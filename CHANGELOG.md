@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.4](https://github.com/ScottGibb/Gibbiverse/compare/v0.4.3...v0.4.4) (2025-12-17)
+
+
+### Bug Fixes
+
+* pdf paths ([6d3c46c](https://github.com/ScottGibb/Gibbiverse/commit/6d3c46c8f410ee94130c150227fd6c24cd04d0d0))
+
 ## [0.4.3](https://github.com/ScottGibb/Gibbiverse/compare/v0.4.2...v0.4.3) (2025-12-17)
 
 ### Bug Fixes
