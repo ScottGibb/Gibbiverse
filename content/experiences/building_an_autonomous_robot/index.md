@@ -21,6 +21,11 @@ The robot shown below is the exploded view of the robot, is the completed hardwa
 
 ## The Rampaging Chariots Guild
 
+The original robot (pre-autonomy) was designed for a robotics competition called the [Rampaging Chariots Guild](https://www.rampagingchariots.org.uk/index.php). A great extract from their website is shown below:
+
+>The Rampaging Chariot is a powerful, radio controlled featherweight sporting robot that is used by schools and youth groups to compete in an annual Robotic Games to determine the National Champion. It is a project aimed at interesting young people in engineering organised by the Rampaging Chariots Guild.
+>You receive the first robot as a free kit and your team builds it and tests it (this takes about 12 hours work). You can then design unique bodywork and think of ideas to improve its performance.
+
 ## System Architecture
 
 The robot was overengineered to include numerous sensors for environment detection such as ultrasonic sensors and IR Range sensors, allowing the robot to see all of its surroundings regardless of what was around it - or so that was the idea. LIDAR was avoided due to concerns with the Rampaging Chariot Platform.
@@ -51,4 +56,4 @@ A fun experience I had with the robot was when I was experimenting with PID cont
 
 My dissertation can be found below:
 
-{{< embed-pdf url="/images/experiences/building_an_autonomous_robot/dissertation.pdf" >}}
+{{< embed-pdf url="./dissertation.pdf" >}}
