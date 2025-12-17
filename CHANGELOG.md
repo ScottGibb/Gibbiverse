@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.2](https://github.com/ScottGibb/Gibbiverse/compare/v0.4.1...v0.4.2) (2025-12-17)
+
+
+### Bug Fixes
+
+* using latest submodule for embed-pdf ([665589c](https://github.com/ScottGibb/Gibbiverse/commit/665589c12d8f766e2f4060a01639bd8a96167fd2))
+
 ## [0.4.1](https://github.com/ScottGibb/Gibbiverse/compare/v0.4.0...v0.4.1) (2025-12-17)
 
 ### Bug Fixes
