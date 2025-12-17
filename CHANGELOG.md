@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.1](https://github.com/ScottGibb/Gibbiverse/compare/v0.4.0...v0.4.1) (2025-12-17)
+
+
+### Bug Fixes
+
+* added missing inline shortcodes for embed PDF ([5a9f7f2](https://github.com/ScottGibb/Gibbiverse/commit/5a9f7f21cb6f12851d528b804e7fabbc908dbe4b))
+* remove old carousel dep ([7f2736e](https://github.com/ScottGibb/Gibbiverse/commit/7f2736e67b1ecca1df86277b9b8b9fff80d4bdd8))
+
 ## [0.4.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.3.0...v0.4.0) (2025-12-17)
 
 ### Features
