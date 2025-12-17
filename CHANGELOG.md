@@ -2,11 +2,9 @@
 
 ## [0.4.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.3.0...v0.4.0) (2025-12-17)
 
-
 ### Features
 
 * Add New carousel implementation ([5523679](https://github.com/ScottGibb/Gibbiverse/commit/5523679b275f273ef0a6892cc84f78592896267c))
-
 
 ### Bug Fixes
 
@@ -14,13 +12,11 @@
 
 ## [0.3.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.2.3...v0.3.0) (2025-12-16)
 
-
 ### Features
 
 * Add Author archtype ([951ab2a](https://github.com/ScottGibb/Gibbiverse/commit/951ab2a1bf501169962d1055fb4c1fef3683a3dc))
 * Adding attempt at new carousel ([a7a26ba](https://github.com/ScottGibb/Gibbiverse/commit/a7a26ba70467a40fcbec6c8f74ee2b8b87ac4469))
 * **dyson:** Add more mentioning of open source contributions ([8f4baa3](https://github.com/ScottGibb/Gibbiverse/commit/8f4baa3b9f4b17819626c865ccb1c9b6055aced1))
-
 
 ### Bug Fixes
 
