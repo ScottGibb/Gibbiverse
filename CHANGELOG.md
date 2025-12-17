@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.4.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.3.0...v0.4.0) (2025-12-17)
+
+
+### Features
+
+* Add New carousel implementation ([5523679](https://github.com/ScottGibb/Gibbiverse/commit/5523679b275f273ef0a6892cc84f78592896267c))
+
+
+### Bug Fixes
+
+* Rename dce_Logo.png to dce_logo.png ([3dea3dd](https://github.com/ScottGibb/Gibbiverse/commit/3dea3dd5e1ee5cf901c5c529d440d2f01965b194))
+
 ## [0.3.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.2.3...v0.3.0) (2025-12-16)
 
 
