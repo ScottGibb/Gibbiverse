@@ -36,7 +36,7 @@ Being the over-eager engineer that I am, I absolutely loaded this robot with sen
 
 ## Software/Firmware Architecture
 
-The main processing unit of the Robot was a Raspberry Pi 3 running an object-oriented Python Stack. It had low level communications through I2C and UART to the Motor Controller and Sensor Controller, running custom communication protocols. The high level teleoperated control was done over TCP to a JavaFX Application. The Sensor controller being the main board for interacting with all the sensors ran pure C code with the STM32F1 HALs.
+The main processing unit of the Robot was a Raspberry Pi 3 running an object-oriented Python Stack. It had low-level communications through I2C and UART to the Motor Controller and Sensor Controller, running custom communication protocols. The high-level teleoperated control was done over TCP to a JavaFX Application. The Sensor controller being the main board for interacting with all the sensors ran pure C code with the STM32F1 HALs.
 
 ## Hardware Design
 
