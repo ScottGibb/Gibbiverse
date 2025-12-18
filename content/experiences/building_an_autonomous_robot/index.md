@@ -19,7 +19,7 @@ When I was at the University of Strathclyde, studying Computer and Electronic Sy
 
 ![Exploded View](/images/experiences/building_an_autonomous_robot/exploded_view.png)
 
-The robot shown below is the exploded view of the robot, is the completed hardware assembly, it consisted of 5 Printed Circuit Boards developed in Eagle and manufactured by JLCPCB. Sadly I started developing this robot during the Pandemic, so assembly and progress was slow, however I was fortunate enough to get a paid Internship for this robot to ensure the development of the robot. This carried on for three months into the summer.
+The exploded view shown above is the completed hardware assembly. It consisted of 5 Printed Circuit Boards developed in Eagle and manufactured by JLCPCB. Sadly I started developing this robot during the Pandemic, so assembly and progress was slow, however I was fortunate enough to get a paid Internship for this robot to ensure the development of the robot. This carried on for three months into the summer.
 
 ## The Rampaging Chariots Guild
 
