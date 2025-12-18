@@ -15,11 +15,11 @@ draft: false
 
 ![Robot](/images/experiences/building_an_autonomous_robot/building_an_autonomous_robot.jpeg)
 
-When I was the University of Strathclyde, studying Computer and Electronic Systems, in my fourth year (Bachelors), I self suggested a project involving the creation of an Autonomous Robot. A very Ambitious goal in which I wanted to cover the construction of a robot, including 3D printing chassis mount, designing and assembling electronics and of course writing the embedded software. A very ambitious goal, one in which could have done with narrowing the scope.
+When I was at the University of Strathclyde, studying Computer and Electronic Systems, in my fourth year (Bachelors), I self-suggested a project involving the creation of an Autonomous Robot. A very Ambitious goal in which I wanted to cover the construction of a robot, including 3D printing chassis mount, designing and assembling electronics and of course writing the embedded software. A very ambitious goal, one in which could have done with narrowing the scope.
 
 ![Exploded View](/images/experiences/building_an_autonomous_robot/exploded_view.png)
 
-The robot shown below is the exploded view of the robot, is the completed hardware assembly, it consisted of 5 Printed Circuit Boards developed in Eagle and manufactured by JLCPCB. Sadly I started developing this robot during the Pandemic, so assembly and progress was slow, however I was fortunate enough to get an paid Internship for this robot to ensure the development of the robot. This carried on for three months into the summer.
+The robot shown below is the exploded view of the robot, is the completed hardware assembly, it consisted of 5 Printed Circuit Boards developed in Eagle and manufactured by JLCPCB. Sadly I started developing this robot during the Pandemic, so assembly and progress was slow, however I was fortunate enough to get a paid Internship for this robot to ensure the development of the robot. This carried on for three months into the summer.
 
 ## The Rampaging Chariots Guild
 
@@ -32,11 +32,11 @@ My ambitious goal? Take this basic teleoperated robot and give it a brain - maki
 
 ## System Architecture
 
-Being the over-eager engineer that I am, I absolutely loaded this robot with sensors. We're talking ultrasonic sensors, IR range sensors - basically giving it 360-degree environmental awareness. The plan was to create a robot that could "see" everything around it, regardless of the environment. I deliberately avoided LIDAR due to concerns with the Rampaging Chariots competition rules, have prohibited its use.
+Being the over-eager engineer that I am, I absolutely loaded this robot with sensors. We're talking ultrasonic sensors, IR range sensors - basically giving it 360-degree environmental awareness. The plan was to create a robot that could "see" everything around it, regardless of the environment. I deliberately avoided LIDAR due to concerns with the Rampaging Chariots competition rules, which prohibit its use.
 
 ## Software/Firmware Architecture
 
-The main processing unit of the Robot was a Raspberry Pi 3 running an object orientated Python Stack. It had low level communications through I2C and UART to the Motor Controller and Sensor Controller, running custom communication protocols. The high level teleoperated control was done over TCP to a JavaFX Application. The Sensor controller being the main board for interacting with all the sensors ran pure C code with the STM32F1 HALs.
+The main processing unit of the Robot was a Raspberry Pi 3 running an object-oriented Python Stack. It had low level communications through I2C and UART to the Motor Controller and Sensor Controller, running custom communication protocols. The high level teleoperated control was done over TCP to a JavaFX Application. The Sensor controller being the main board for interacting with all the sensors ran pure C code with the STM32F1 HALs.
 
 ## Hardware Design
 
@@ -46,7 +46,7 @@ I'm an Embedded engineer and with that, I like to develop Printed Circuit Boards
 
 ### Electromagnetic Shielding
 
-A fun experience I had with the robot was when I was experimenting with PID control of the robot and was noticing I2C issues and forced shutdowns. It turns out the robots motors (repurposed drill motors), were causing EMI spikes when maximum power was supplied causing I2C communication errors alongside forced shutdowns through a power off button being triggered. Eventually tin foil was used(wrapped in carboard) to "shield" the motors EMI and prevent the system from being affected, a valid solution that did work!
+A fun experience I had with the robot was when I was experimenting with PID control of the robot and was noticing I2C issues and forced shutdowns. It turns out the robot's motors (repurposed drill motors), were causing EMI spikes when maximum power was supplied causing I2C communication errors alongside forced shutdowns through a power off button being triggered. Eventually tin foil was used (wrapped in cardboard) to "shield" the motors EMI and prevent the system from being affected, a valid solution that did work!
 
 ## Lessons Learned
 
