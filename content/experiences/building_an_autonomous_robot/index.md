@@ -15,7 +15,7 @@ draft: false
 
 ![Robot](/images/experiences/building_an_autonomous_robot/building_an_autonomous_robot.jpeg)
 
-When I was at the University of Strathclyde, studying Computer and Electronic Systems, in my fourth year (Bachelors), I self-suggested a project involving the creation of an Autonomous Robot. A very Ambitious goal in which I wanted to cover the construction of a robot, including 3D printing chassis mount, designing and assembling electronics and of course writing the embedded software. A very ambitious goal, one in which could have done with narrowing the scope.
+When I was at the University of Strathclyde, studying Computer and Electronic Systems, in my fourth year (Bachelors), I self-suggested a project involving the creation of an autonomous robot – a very ambitious goal where I wanted to cover the construction of a robot, including 3D printing a chassis mount, designing and assembling electronics, and of course writing the embedded software. In hindsight, it was an ambitious goal, one which could have done with a narrower scope.
 
 ![Exploded View](/images/experiences/building_an_autonomous_robot/exploded_view.png)
 
