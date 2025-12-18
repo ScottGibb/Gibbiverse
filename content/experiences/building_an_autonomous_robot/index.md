@@ -40,7 +40,7 @@ The main processing unit of the Robot was a Raspberry Pi 3 running an object-ori
 
 ## Hardware Design
 
-I'm an Embedded engineer and with that, I like to develop Printed Circuit Boards and love to 3D print things. So I developed custom mounts and custom boards, due to the Rampaging Chariots guild being targeted at teenagers/children, one of the requirements was that the boards had to be simple enough for them to solder together. So I kept the designs simple, with through hole components where possible. This increased the size of the boards but made assembly much easier. All the boards were connected via I2C or UART to the Raspberry Pi.
+I'm an Embedded engineer and with that, I like to develop Printed Circuit Boards and love to 3D print things. So I developed custom mounts and custom boards, due to the Rampaging Chariots guild being targeted at teenagers/children, one of the requirements was that the boards had to be simple enough for them to solder together. So I kept the designs simple, with through-hole components where possible. This increased the size of the boards but made assembly much easier. All the boards were connected via I2C or UART to the Raspberry Pi.
 
 ![I2C Network](/images/experiences/building_an_autonomous_robot/hardware_design.png)
 

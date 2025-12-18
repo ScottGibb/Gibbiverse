@@ -35,7 +35,7 @@ This meant diving into additive manufacturing with 3D printing, designing custom
 
 ### Secondment
 
-I landed a secondment with one of Babcock’s business partners, [Digital Concepts Engineering](/experiences/digital_concepts_engineering/digital_concepts_engineering/). It was an awesome experience where I successfully prototyped a Universal Robot controller capabale of controlling their various robotic platforms, including tracked vehicles, wheeled vehicles such as HX60 and the Ford Ranger.
+I landed a secondment with one of Babcock's business partners, [Digital Concepts Engineering](/experiences/digital_concepts_engineering/digital_concepts_engineering/). It was an awesome experience where I successfully prototyped a Universal Robot controller capable of controlling their various robotic platforms, including tracked vehicles, wheeled vehicles such as HX60 and the Ford Ranger.
 
 After completing the secondment, I returned to Babcock and was promoted to Robotics and Embedded Software Engineer—ending my placements and fully joining the Technology Design and Innovation Team.
 
