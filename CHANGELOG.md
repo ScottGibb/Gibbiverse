@@ -2,12 +2,10 @@
 
 ## [0.5.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.4.4...v0.5.0) (2025-12-18)
 
-
 ### Features
 
 * expand Building an autonomosu robot content ([6692832](https://github.com/ScottGibb/Gibbiverse/commit/6692832fd836cdd0a829376a6d7aca48c1d2ddd3))
 * **multi_platform_rust_driver:** add missing art ([da88ae4](https://github.com/ScottGibb/Gibbiverse/commit/da88ae4f6ec3363e2acc771ed245d3adfe5d75f3))
-
 
 ### Bug Fixes
 
