@@ -37,9 +37,9 @@ A few of the open-source projects I contributed to while at Dyson include:
 
 - [Post Haste](https://github.com/petekubiak/post-haste): A very cool actor framework for embedded Rust, designed to simplify messaging between actors. Works both on Embassy and Tokio frameworks. Again, big thanks to [Pete Kubiak](https://www.linkedin.com/in/pete-kubiak-9252a3216/) for leading this initiative.
 
-- [TMAG5273 Driver](https://github.com/dysonltd/tmag5273): A Rust driver for the TMAG5273 magnetic sensor, A truelly cross platform driver supporting systems such as MacOS, Linux, Raspberry Pi, ESP32 and STM32. Our first Rust project in Landrace.
+- [TMAG5273 Driver](https://github.com/dysonltd/tmag5273): A Rust driver for the TMAG5273 magnetic sensor, A truly cross platform driver supporting systems such as MacOS, Linux, Raspberry Pi, ESP32 and STM32. Our first Rust project in Landrace.
 
-And many many more! You can find more of Dysons open-source projects on the [Dyson GitHub page](https://github.com/dysonltd/). And of course, you can find my personal open-source contributions on my [Open Source page](/pages/open_source) or on my [GitHub profile](https://github.com/ScottGibb).
+And many, many more! You can find more of Dyson's open-source projects on the [Dyson GitHub page](https://github.com/dysonltd/). And of course, you can find my personal open-source contributions on my [Open Source page](/pages/open_source) or on my [GitHub profile](https://github.com/ScottGibb).
 
 ## Technical Mentorship and Line Management
 
