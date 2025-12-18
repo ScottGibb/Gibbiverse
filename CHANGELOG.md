@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.5.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.4.4...v0.5.0) (2025-12-18)
+
+
+### Features
+
+* expand Building an autonomosu robot content ([6692832](https://github.com/ScottGibb/Gibbiverse/commit/6692832fd836cdd0a829376a6d7aca48c1d2ddd3))
+* **multi_platform_rust_driver:** add missing art ([da88ae4](https://github.com/ScottGibb/Gibbiverse/commit/da88ae4f6ec3363e2acc771ed245d3adfe5d75f3))
+
+
+### Bug Fixes
+
+* **autonomous robot:** Copilot fixed grammer ([bed3aa9](https://github.com/ScottGibb/Gibbiverse/commit/bed3aa90cd604fed8a2eebabbc6fe5492ba92d6c))
+* content/experiences/building_an_autonomous_robot/index.md ([11a2244](https://github.com/ScottGibb/Gibbiverse/commit/11a2244770aa0fbfc15ce153caa70739d7a8a3fc))
+* pdf path ([11b0a84](https://github.com/ScottGibb/Gibbiverse/commit/11b0a84fdb33e1200c10238a31d13a9100963f3d))
+* typos with copilot ([0726351](https://github.com/ScottGibb/Gibbiverse/commit/07263518870e48d9843ef7b6e8a790cdce2538c6))
+* Update content/experiences/building_an_autonomous_robot/index.md ([c180897](https://github.com/ScottGibb/Gibbiverse/commit/c1808972be8bebe9a1970d56e247e57e622a178a))
+* Update content/experiences/building_an_autonomous_robot/index.md ([7d140be](https://github.com/ScottGibb/Gibbiverse/commit/7d140bec0097fefb2cb7a7963975df7ef4674f21))
+
 ## [0.4.4](https://github.com/ScottGibb/Gibbiverse/compare/v0.4.3...v0.4.4) (2025-12-17)
 
 ### Bug Fixes
