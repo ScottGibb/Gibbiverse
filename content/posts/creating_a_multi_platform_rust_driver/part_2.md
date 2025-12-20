@@ -128,7 +128,7 @@ The best part is that because we have used the embedded-hal traits in our driver
 
 An exciting use case for the FT232H breakout board is to use it in CICD pipelines to run hardware-in-the-loop (HIL) tests on real devices. This allows us to validate our drivers against actual hardware, ensuring that they work correctly in real-world scenarios. Since we have the embedded-hal, we can test our driver on multiple hardware platforms without changing any of the driver code. An example of the CICD test bench setup is shown below:
 
-![TMAG723 Test Bench](/images/posts/creating_a_multi_platform_rust_driver/tmag_cicd_test_bench.png)
+![TMAG5273 Test Bench](/images/posts/creating_a_multi_platform_rust_driver/tmag_cicd_test_bench.drawio.svg)
 
 In a future blog post we will explore how to set up CICD pipelines using GitHub Actions to run HIL tests using the FT232H breakout board. For now the above example should give you a good idea of how this FT232H breakout board can be used on macOS, Linux and Raspberry Pi Linux to test your drivers on real hardware.
 
