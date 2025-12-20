@@ -260,5 +260,5 @@ All of this blog post contains snippets from the AP33772S Rust Driver that I dev
 
 Hopefully you found something useful here! If you have a disagreement or there's a better way of doing what I'm describing, please raise an issue on the [blog repository](https://github.com/ScottGibb/Gibbiverse) or submit a pull request with your improvements.
 
-- Previous Part: [Creating a multi platform Rust Driver](/posts/creating_a_multi_platform_rust_driver/part_0)
+- Previous Part: [Creating a multi platform Rust Driver: Overview](/posts/creating_a_multi_platform_rust_driver/part_0)
 - Next Part: [Creating a multi platform Rust Driver: FT232H Breakout Board](/posts/creating_a_multi_platform_rust_driver/part_2)
