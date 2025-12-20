@@ -130,7 +130,7 @@ An exciting use case for the FT232H breakout board is to use it in CICD pipeline
 
 ![TMAG723 Test Bench](/images/posts/creating_a_multi_platform_rust_driver/tmag_cicd_test_bench.png)
 
-In a future blog post we will explore how to set up CICD pipelines using GitHub Actions to run HIL tests using the FT232H breakout board. For now the above example should give you a good idea of how this FT232H breakout board can be used on MacOS, Linux and Raspberry Pi Linux to test your drivers on real hardware.
+In a future blog post we will explore how to set up CICD pipelines using GitHub Actions to run HIL tests using the FT232H breakout board. For now the above example should give you a good idea of how this FT232H breakout board can be used on macOS, Linux and Raspberry Pi Linux to test your drivers on real hardware.
 
 ## Tips
 
