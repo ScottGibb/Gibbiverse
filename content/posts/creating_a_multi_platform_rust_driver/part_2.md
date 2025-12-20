@@ -20,7 +20,7 @@ An ordinary laptop or desktop computer does not have native I2C support, so we n
 
 Traditionally the FT232H has been used with C/C++ or Python, but there is a Rust crate called [ftdi-embedded-hal](https://crates.io/crates/ftdi-embedded-hal) that provides an embedded-hal implementation for the FTDI chips. This crate allows us to use the FT232H breakout board as an I2C interface in our Rust drivers.
 
-So working with this board you will need to add some dev dependencies to your `Cargo.toml` file in your library/application. This allows the rust code to add these dependencies only when you are running tests or examples. If for example you are building a library that uses embedded-hal traits, you may not want to include the FTDI dependencies in the final library binary. This is where dev-dependencies come in handy.
+So when working with this board you will need to add some dev dependencies to your `Cargo.toml` file in your library/application. This allows the rust code to add these dependencies only when you are running tests or examples. If for example you are building a library that uses embedded-hal traits, you may not want to include the FTDI dependencies in the final library binary. This is where dev-dependencies come in handy.
 
 Shown below is an example of how to add the necessary dependencies to your `Cargo.toml` file:
 
@@ -68,7 +68,7 @@ pub fn setup_i2c(baudrate: u32) -> Result<I2c<Device>, Box<dyn Error>> {
         .interface(ftdi::Interface::A)
         .open()?;
 
-    // Next initialise the HAL with the device and the Baudrate
+    // Next initialise the HAL with the device and the baud rate
     let hal = match hal::FtHal::init_freq(device, baudrate) {
         Ok(hal) => hal,
         Err(err) => {
@@ -120,7 +120,7 @@ fn main() {
 }
 ```
 
-The power here is we are using our platform agnostic driver code we talked about from [part 1](/posts/creating_a_multi_platform_rust_driver/part_1), its a minimal example that focuses purely on the driver itself and not any setup code for the system. We can also run this just on our dev machine, so no toolchains or necessary dependencies are required. It also doesnt care what operating system you are using, as long as the FTDI drivers are installed correctly.
+The power here is we are using our platform agnostic driver code we talked about from [part 1](/posts/creating_a_multi_platform_rust_driver/part_1), its a minimal example that focuses purely on the driver itself and not any setup code for the system. We can also run this just on our dev machine, so no toolchains or necessary dependencies are required. It also doesn't care what operating system you are using, as long as the FTDI drivers are installed correctly.
 
 The best part is that because we have used the embedded-hal traits in our driver, we can easily switch between different platforms without changing any of the driver code. For example, we could run the same code on an embedded device using a different I2C implementation, and it would work seamlessly. An `async` example of this is shown in the [ESP32 example of the AP33772S driver](https://github.com/ScottGibb/AP33772S-rs/tree/main/examples/esp32c3).
 
