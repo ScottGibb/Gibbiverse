@@ -2,11 +2,9 @@
 
 ## [0.6.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.5.0...v0.6.0) (2025-12-20)
 
-
 ### Features
 
 * **multi_platform_rust_driver:** Add Rust Blog Post 2 ([26c6e2d](https://github.com/ScottGibb/Gibbiverse/commit/26c6e2d70faa675e9aa78bbfafc0214d4c6f001b))
-
 
 ### Bug Fixes
 
