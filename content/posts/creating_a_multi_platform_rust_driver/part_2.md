@@ -10,11 +10,11 @@ toc: true
 draft: false
 ---
 
-In the previous part of the series we explored the embedded-hal traits and how they can be used to create platform agnostic drivers in Rust. In this part, we will focus on how we can use the [FT232H breakout board](https://thepihut.com/products/adafruit-ft232h-breakout-general-purpose-usb-to-gpio-spi-i2c?variant=27739805457&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gad_campaignid=22549809780&gbraid=0AAAAADfQ4GE6kjp3ixeunvY8sOj9o-Bot&gclid=Cj0KCQiAr5nKBhCpARIsACa_NiP8eaQHxRS4pvIQevlQbFi8B9tpbBWtNJqHMsMiwjgNZdvd7qiqToUaAgX_EALw_wcB) to interact with our I2C device from a desktop environment.
+In the previous part of the series we explored the embedded-hal traits and how they can be used to create platform agnostic drivers in Rust. In this part, we will focus on how we can use the [FT232H breakout board](https://thepihut.com/products/adafruit-ft232h-breakout-general-purpose-usb-to-gpio-spi-i2c) to interact with our I2C device from a desktop environment.
 
 ![FT232H breakout Board](/images/posts/creating_a_multi_platform_rust_driver/ft232h_breakout_board.jpg)
 
-An ordinary laptop or desktop computer does not have native I2C support, so we need to use a USB to I2C bridge to communicate with our device. The [FT232H breakout board](https://thepihut.com/products/adafruit-ft232h-breakout-general-purpose-usb-to-gpio-spi-i2c?variant=27739805457&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gad_campaignid=22549809780&gbraid=0AAAAADfQ4GE6kjp3ixeunvY8sOj9o-Bot&gclid=Cj0KCQiAr5nKBhCpARIsACa_NiP8eaQHxRS4pvIQevlQbFi8B9tpbBWtNJqHMsMiwjgNZdvd7qiqToUaAgX_EALw_wcB) made by adafruit is a popular choice for this purpose, as it provides a simple and reliable way to interface with I2C devices from a computer. It also provides GPIO, SPI and has a [STEMMA QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma) connector for easy wiring. Allowing us to chain a bunch of I2C devices together.
+An ordinary laptop or desktop computer does not have native I2C support, so we need to use a USB to I2C bridge to communicate with our device. The [FT232H breakout board](https://thepihut.com/products/adafruit-ft232h-breakout-general-purpose-usb-to-gpio-spi-i2c) made by adafruit is a popular choice for this purpose, as it provides a simple and reliable way to interface with I2C devices from a computer. It also provides GPIO, SPI and has a [STEMMA QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma) connector for easy wiring. Allowing us to chain a bunch of I2C devices together.
 
 ## Setting Up the FT232H in Rust
 
