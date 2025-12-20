@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.6.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.5.0...v0.6.0) (2025-12-20)
+
+
+### Features
+
+* **multi_platform_rust_driver:** Add Rust Blog Post 2 ([26c6e2d](https://github.com/ScottGibb/Gibbiverse/commit/26c6e2d70faa675e9aa78bbfafc0214d4c6f001b))
+
+
+### Bug Fixes
+
+* add next time section ([242f536](https://github.com/ScottGibb/Gibbiverse/commit/242f536ff775a9171811f7a55b80f38572ff15f7))
+* address PR review comments for grammar and spelling ([4f02fb4](https://github.com/ScottGibb/Gibbiverse/commit/4f02fb4aba9d86f0f16046741058ed1065f9c6a2))
+* **multi_platform_rust_driver:** Update content/posts/creating_a_multi_platform_rust_driver/part_2.md ([e0863aa](https://github.com/ScottGibb/Gibbiverse/commit/e0863aafe0a3f2614bee02a4cf24c14e97f25d3a))
+* **multi_platform_rust_driver:** Update content/posts/creating_a_multi_platform_rust_driver/part_2.md ([6a0f363](https://github.com/ScottGibb/Gibbiverse/commit/6a0f363484693df4bcfe93a5c185c8cfe86b44c0))
+* **multi_platform_rust_driver:** Update content/posts/creating_a_multi_platform_rust_driver/part_2.md ([853f866](https://github.com/ScottGibb/Gibbiverse/commit/853f866d465870fd7223313cd04ecd17d5af8f14))
+* **multi_platform_rust_driver:** Update content/posts/creating_a_multi_platform_rust_driver/part_2.md ([4cc2704](https://github.com/ScottGibb/Gibbiverse/commit/4cc2704f2fcb0948cc24a0b50b7adf84ecaeb742))
+* rename heading ([bc1d371](https://github.com/ScottGibb/Gibbiverse/commit/bc1d371f35b81fd932b6782a3c37f0b5a3d41801))
+* **rust_multi_platform_driver:** Add correct CICD Image ([f5dda95](https://github.com/ScottGibb/Gibbiverse/commit/f5dda95b2252955c07eacf8c00e46a7539b368b8))
+* **rust_multi_platform_driver:** add correct link text ([8628ce6](https://github.com/ScottGibb/Gibbiverse/commit/8628ce62b9c1513b46729327cc5a8cdaa9b5a064))
+* Update content/posts/creating_a_multi_platform_rust_driver/part_2.md ([8ffc834](https://github.com/ScottGibb/Gibbiverse/commit/8ffc834e7fc23a1bbfe4402ff45564520520bede))
+
 ## [0.5.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.4.4...v0.5.0) (2025-12-18)
 
 ### Features
