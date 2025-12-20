@@ -35,10 +35,15 @@ This meant diving into additive manufacturing with 3D printing, designing custom
 
 ### Secondment
 
-I landed a secondment with one of Babcock’s business partners, [Digital Concepts Engineering](/experiences/digital_concepts_engineering/digital_concepts_engineering/). It was an awesome experience where I successfully prototyped a Universal Robot controller capabale of controlling their various robotic platforms, including tracked vehicles, wheeled vehicles such as HX60 and the Ford Ranger.
+I landed a secondment with one of Babcock's business partners, [Digital Concepts Engineering](/experiences/digital_concepts_engineering/digital_concepts_engineering/). It was an awesome experience where I successfully prototyped a Universal Robot controller capable of controlling their various robotic platforms, including tracked vehicles, wheeled vehicles such as HX60 and the Ford Ranger.
 
 After completing the secondment, I returned to Babcock and was promoted to Robotics and Embedded Software Engineer—ending my placements and fully joining the Technology Design and Innovation Team.
 
-{{< image-carousel images="[{ \"src\": \"/images/experiences/babcock/babcock_demo_day.jpeg\", \"alt\": \"Demo Day\"  }, { \"src\": \"/images/experiences/babcock/dce_follow_me.png\", \"alt\": \"DCE Follow Me\"  }, { \"src\": \"/images/experiences/babcock/uUGV.jpeg\", \"alt\": \"Babcock UUGV\"}, { \"src\": \"/images/experiences/babcock/eurosatory.png\", \"alt\": \"Eurosatory\"  }]">}}
+{{<carousel
+  "/images/experiences/babcock/babcock_demo_day.jpeg|Demo Day"
+  "/images/experiences/babcock/dce_follow_me.png|DCE Follow Me"
+  "/images/experiences/babcock/uUGV.jpeg|Babcock UUGV"
+  "/images/experiences/babcock/eurosatory.png|Eurosatory"
+>}}
 
 From here, I went on to explore the product manufacturing space and went on to work at [Dyson](/experiences/dyson/dyson) as an Embedded Software Engineer.

@@ -1,0 +1,150 @@
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<!-- Swiper JS (loaded once safely) -->
+<script>
+  if (typeof window.Swiper === "undefined") {
+    const s = document.createElement("script");
+    s.src = "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js";
+    s.onload = initCarousels;
+    document.head.appendChild(s);
+  } else {
+    initCarousels();
+  }
+
+  function initCarousels() {
+    document.querySelectorAll(".swiper").forEach(el => {
+      if (el.dataset.initialized) return;
+      el.dataset.initialized = "true";
+
+      new Swiper(el, {
+        loop: true,
+        effect: "fade",
+        fadeEffect: {
+          crossFade: true
+        },
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: el.querySelector(".swiper-pagination"),
+          clickable: true,
+        },
+        navigation: {
+          nextEl: el.querySelector(".swiper-button-next"),
+          prevEl: el.querySelector(".swiper-button-prev"),
+        },
+      });
+    });
+  }
+</script>
+
+<style>
+  .swiper-carousel {
+    width: 100%;
+    max-width: 900px;
+    margin: 2.5rem auto;
+  }
+  
+  .swiper-carousel .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+  }
+  
+  .swiper-carousel .swiper-slide img {
+    max-width: 100%;
+    max-height: 450px;
+    object-fit: contain;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+  }
+  
+  .swiper-carousel .swiper-slide img:hover {
+    transform: scale(1.02);
+  }
+  
+  .swiper-carousel .carousel-caption {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #a0aec0;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+  }
+  
+  .swiper-carousel .swiper-pagination-bullet {
+    background: #4a5568;
+    opacity: 0.6;
+    width: 10px;
+    height: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .swiper-carousel .swiper-pagination-bullet-active {
+    background: #63b3ed;
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  
+  .swiper-carousel .swiper-button-prev,
+  .swiper-carousel .swiper-button-next {
+    color: #63b3ed;
+    background: rgba(0, 0, 0, 0.4);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+  
+  .swiper-carousel .swiper-button-prev:hover,
+  .swiper-carousel .swiper-button-next:hover {
+    background: rgba(99, 179, 237, 0.3);
+    transform: scale(1.1);
+  }
+  
+  .swiper-carousel .swiper-button-prev::after,
+  .swiper-carousel .swiper-button-next::after {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .swiper-carousel .swiper-pagination {
+    position: relative;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+  }
+</style>
+
+<div class="swiper swiper-carousel">
+  <div class="swiper-wrapper">
+    {{ range .Params }}
+      {{ $p := split . "|" }}
+      {{ $img := index $p 0 }}
+      {{ $caption := cond (gt (len $p) 1) (index $p 1) "" }}
+
+      <div class="swiper-slide">
+        <img
+          src="{{ $img | relURL }}"
+          loading="lazy"
+          alt="{{ $caption }}"
+        />
+
+        {{ if $caption }}
+          <p class="carousel-caption">
+            {{ $caption }}
+          </p>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev text-white"></div>
+  <div class="swiper-button-next text-white"></div>
+</div>

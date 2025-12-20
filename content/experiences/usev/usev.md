@@ -175,4 +175,10 @@ It taught me:
 
 Most importantly, it made engineering fun — and that’s something I’ve tried to carry forward into everything I’ve worked on since.
 
-{{< image-carousel images="[{ \"src\": \"/images/experiences/usev/usev_track_day.jpeg\", \"alt\": \"USEV Track Day\"  }, { \"src\": \"/images/experiences/usev/motor_controller.jpeg\", \"alt\": \"motor controller\"  }, { \"src\": \"/images/experiences/usev/usev_on_the_track.jpeg\", \"alt\": \"One The Track\"  }, { \"src\": \"/images/experiences/usev/usev_track_day_debug.jpeg\", \"alt\": \"Track Debug\"  },  { \"src\": \"/images/experiences/usev/usev_team_photo.jpeg\", \"alt\": \"Team Photo\"  }]">}}
+{{< carousel
+  "/images/experiences/usev/usev_track_day.jpeg|USEV Track Day"
+  "/images/experiences/usev/motor_controller.jpeg|Motor Controller"
+  "/images/experiences/usev/usev_on_the_track.jpeg|On The Track"
+  "/images/experiences/usev/usev_track_day_debug.jpeg|Track Debug"
+  "/images/experiences/usev/usev_team_photo.jpeg|Team Photo"
+  >}}

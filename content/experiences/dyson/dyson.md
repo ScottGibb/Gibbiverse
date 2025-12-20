@@ -19,9 +19,9 @@ featured_image: '/images/experiences/dyson/dyson_hairdryers.png'
 
 After leaving [Babcock](/experiences/babcock/babcock), I joined **Dyson** as part of the **New Product Innovation Software Team (NST)**, a multidisciplinary group working across the entire technology stack—from embedded systems and application development through to cloud services and data science. During my time in the team, I developed numerous prototypes and explored a wide range of technologies, from bare-metal microcontrollers to embedded Linux platforms.
 
-Due to IP restrictions, I’m unable to share specific details about the prototypes, their architectures, or their intended applications. However, *watch this space*—several of these early concepts are making their way toward full product development.
-
 ![Dyson devices](/images/experiences/dyson/dyson_devices.png)
+
+Due to IP restrictions, I’m unable to share specific details about the prototypes, their architectures, or their intended applications. However, *watch this space*—several of these early concepts are making their way toward full product development.
 
 ## Open Source
 
@@ -37,9 +37,9 @@ A few of the open-source projects I contributed to while at Dyson include:
 
 - [Post Haste](https://github.com/petekubiak/post-haste): A very cool actor framework for embedded Rust, designed to simplify messaging between actors. Works both on Embassy and Tokio frameworks. Again, big thanks to [Pete Kubiak](https://www.linkedin.com/in/pete-kubiak-9252a3216/) for leading this initiative.
 
-- [TMAG5273 Driver](https://github.com/dysonltd/tmag5273): A Rust driver for the TMAG5273 magnetic sensor, A truelly cross platform driver supporting systems such as MacOS, Linux, Raspberry Pi, ESP32 and STM32. Our first Rust project in Landrace.
+- [TMAG5273 Driver](https://github.com/dysonltd/tmag5273): A Rust driver for the TMAG5273 magnetic sensor, A truly cross platform driver supporting systems such as MacOS, Linux, Raspberry Pi, ESP32 and STM32. Our first Rust project in Landrace.
 
-And many many more! You can find more of Dysons open-source projects on the [Dyson GitHub page](https://github.com/dysonltd/). And of course, you can find my personal open-source contributions on my [Open Source page](/pages/open_source) or on my [GitHub profile](https://github.com/ScottGibb).
+And many, many more! You can find more of Dyson's open-source projects on the [Dyson GitHub page](https://github.com/dysonltd/). And of course, you can find my personal open-source contributions on my [Open Source page](/pages/open_source) or on my [GitHub profile](https://github.com/ScottGibb).
 
 ## Technical Mentorship and Line Management
 

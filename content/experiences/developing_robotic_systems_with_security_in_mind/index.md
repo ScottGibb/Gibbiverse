@@ -10,6 +10,7 @@ title: Developing Robotics with Security in Mind
 featured_image: /images/experiences/university_of_strathclyde.png
 draft: false
 ---
+
 ![Diagram](/images/experiences/developing_robotic_systems_with_security_in_mind/robotic_security.drawio.svg)
 
 Robotic systems are becoming increasingly prevalent in various industries, from manufacturing to healthcare. As these systems become more complex and interconnected, ensuring their security is paramount. During my time at the University of Strathclyde, I managed to get an internship with the Computer Science department and the Carnegie Trust.
@@ -21,9 +22,9 @@ During this internship, I worked with various robotic platforms, including drone
 ## Research Proposal
 
 The proposal I submitted for this internship can be found below:
-{{< embed-pdf url="/images/experiences/developing_robotic_systems_with_security_in_mind/research_proposal.pdf" >}}
+{{< embed-pdf url="./research_proposal.pdf" >}}
 
 ## Presentation
 
 The presentation I delivered at the end of the internship can be found below:
-{{< embed-pdf url="/images/experiences/developing_robotic_systems_with_security_in_mind/poster.pdf" >}}
+{{< embed-pdf url="./poster.pdf" >}}

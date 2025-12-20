@@ -1,8 +1,9 @@
 
 languageCode = 'en-uk'
 title = 'Gibbiverse'
-theme = ["ananke","hugo-embed-pdf-shortcode", "hugo-flickity-carousel"]
-canonifyURLs = true
+theme = ["ananke","hugo-embed-pdf-shortcode"]
+canonifyURLs = true # Needed for GitHub Pages
+enableInlineShortcodes = true # Needed for PDF Embed Shortcode
 [[menu.main]]
 name = "Posts"
 url = "/posts/"

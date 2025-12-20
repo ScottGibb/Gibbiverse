@@ -15,6 +15,8 @@ featured_image: /images/posts/creating_a_multi_platform_rust_driver/rust_banner.
 
 Writing drivers that work consistently across microcontrollers, embedded Linux boards, and desktop operating systems is deceptively hard. Different HALs, conflicting abstractions, and platform-specific quirks often lead to duplicated code or forests of `#ifdef` blocks.
 
+![rust_blog_image](/images/posts/creating_a_multi_platform_rust_driver/rust_blog_entry.png)
+
 In this blog series, we’ll explore how to design and implement a **multi-platform Rust driver** that avoids all of that — one codebase, many targets. We’ll look at how [Rust’s](https://rust-lang.org/what/embedded/) trait system, strong type guarantees, built-in testing support, and CI-friendly workflow make this *not only possible, but pleasant*.
 
 This landing page gives a high-level overview of what I learned building multi-platform Rust drivers. In this series, I’ll share insights on architecture, async and sync support, HAL design, testing, continuous integration and delivery, and release management.

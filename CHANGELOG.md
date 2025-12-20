@@ -1,5 +1,68 @@
 # Changelog
 
+## [0.5.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.4.4...v0.5.0) (2025-12-18)
+
+### Features
+
+* expand Building an autonomosu robot content ([6692832](https://github.com/ScottGibb/Gibbiverse/commit/6692832fd836cdd0a829376a6d7aca48c1d2ddd3))
+* **multi_platform_rust_driver:** add missing art ([da88ae4](https://github.com/ScottGibb/Gibbiverse/commit/da88ae4f6ec3363e2acc771ed245d3adfe5d75f3))
+
+### Bug Fixes
+
+* **autonomous robot:** Copilot fixed grammer ([bed3aa9](https://github.com/ScottGibb/Gibbiverse/commit/bed3aa90cd604fed8a2eebabbc6fe5492ba92d6c))
+* content/experiences/building_an_autonomous_robot/index.md ([11a2244](https://github.com/ScottGibb/Gibbiverse/commit/11a2244770aa0fbfc15ce153caa70739d7a8a3fc))
+* pdf path ([11b0a84](https://github.com/ScottGibb/Gibbiverse/commit/11b0a84fdb33e1200c10238a31d13a9100963f3d))
+* typos with copilot ([0726351](https://github.com/ScottGibb/Gibbiverse/commit/07263518870e48d9843ef7b6e8a790cdce2538c6))
+* Update content/experiences/building_an_autonomous_robot/index.md ([c180897](https://github.com/ScottGibb/Gibbiverse/commit/c1808972be8bebe9a1970d56e247e57e622a178a))
+* Update content/experiences/building_an_autonomous_robot/index.md ([7d140be](https://github.com/ScottGibb/Gibbiverse/commit/7d140bec0097fefb2cb7a7963975df7ef4674f21))
+
+## [0.4.4](https://github.com/ScottGibb/Gibbiverse/compare/v0.4.3...v0.4.4) (2025-12-17)
+
+### Bug Fixes
+
+* pdf paths ([6d3c46c](https://github.com/ScottGibb/Gibbiverse/commit/6d3c46c8f410ee94130c150227fd6c24cd04d0d0))
+
+## [0.4.3](https://github.com/ScottGibb/Gibbiverse/compare/v0.4.2...v0.4.3) (2025-12-17)
+
+### Bug Fixes
+
+* forcing a patch release ([45dbf0d](https://github.com/ScottGibb/Gibbiverse/commit/45dbf0dca06cd31624db0e6a7b627703f95a2a53))
+
+## [0.4.2](https://github.com/ScottGibb/Gibbiverse/compare/v0.4.1...v0.4.2) (2025-12-17)
+
+### Bug Fixes
+
+* using latest submodule for embed-pdf ([665589c](https://github.com/ScottGibb/Gibbiverse/commit/665589c12d8f766e2f4060a01639bd8a96167fd2))
+
+## [0.4.1](https://github.com/ScottGibb/Gibbiverse/compare/v0.4.0...v0.4.1) (2025-12-17)
+
+### Bug Fixes
+
+* added missing inline shortcodes for embed PDF ([5a9f7f2](https://github.com/ScottGibb/Gibbiverse/commit/5a9f7f21cb6f12851d528b804e7fabbc908dbe4b))
+* remove old carousel dep ([7f2736e](https://github.com/ScottGibb/Gibbiverse/commit/7f2736e67b1ecca1df86277b9b8b9fff80d4bdd8))
+
+## [0.4.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.3.0...v0.4.0) (2025-12-17)
+
+### Features
+
+* Add New carousel implementation ([5523679](https://github.com/ScottGibb/Gibbiverse/commit/5523679b275f273ef0a6892cc84f78592896267c))
+
+### Bug Fixes
+
+* Rename dce_Logo.png to dce_logo.png ([3dea3dd](https://github.com/ScottGibb/Gibbiverse/commit/3dea3dd5e1ee5cf901c5c529d440d2f01965b194))
+
+## [0.3.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.2.3...v0.3.0) (2025-12-16)
+
+### Features
+
+* Add Author archtype ([951ab2a](https://github.com/ScottGibb/Gibbiverse/commit/951ab2a1bf501169962d1055fb4c1fef3683a3dc))
+* Adding attempt at new carousel ([a7a26ba](https://github.com/ScottGibb/Gibbiverse/commit/a7a26ba70467a40fcbec6c8f74ee2b8b87ac4469))
+* **dyson:** Add more mentioning of open source contributions ([8f4baa3](https://github.com/ScottGibb/Gibbiverse/commit/8f4baa3b9f4b17819626c865ccb1c9b6055aced1))
+
+### Bug Fixes
+
+* **dce:** carosuel local path ([f2827c2](https://github.com/ScottGibb/Gibbiverse/commit/f2827c2ccd9b9ee611d6dcff744f500ab3d4287e))
+
 ## [0.2.3](https://github.com/ScottGibb/Gibbiverse/compare/v0.2.2...v0.2.3) (2025-12-15)
 
 ### Bug Fixes
