@@ -52,7 +52,7 @@ brew install libftdi
 
 This will ensure that the required libraries are available for the `ftdi` crate to function correctly.
 
-### Creating an I2C and Delay: AP33772S Example
+### Creating I2C and Delay types
 
 In terms of a real world example, in the [AP33772S Driver](https://github.com/ScottGibb/AP33772S-rs/blob/main/examples/README.md), we use a private sub crate within the library crate to provide both an implementation of `I2C` and `Delay`. We can then use these structs for our testing and examples. This keeps the main library crate clean and focused on the core functionality, while still allowing us to test and demonstrate the driver using the FT232H board.
 
