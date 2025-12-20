@@ -134,7 +134,7 @@ In a future blog post we will explore how to set up CICD pipelines using GitHub 
 
 ## Tips
 
-When your developing your rust drivers, its always a good idea to separate out the platform specific implementations into their own modules or crates. This keeps the main driver code clean and focused on the core functionality, while still allowing you to test and demonstrate the driver using different platforms. The FT232H breakout board is a great tool to achieve this goal and allows you to easily test your drivers on a desktop environment. This is ideal when you dont want to setup a whole microcontroller or embedded linux environment to test your code.
+When you’re developing your rust drivers, it’s always a good idea to separate out the platform specific implementations into their own modules or crates. This keeps the main driver code clean and focused on the core functionality, while still allowing you to test and demonstrate the driver using different platforms. The FT232H breakout board is a great tool to achieve this goal and allows you to easily test your drivers on a desktop environment. This is ideal when you don’t want to setup a whole microcontroller or embedded linux environment to test your code.
 
 ---
 
