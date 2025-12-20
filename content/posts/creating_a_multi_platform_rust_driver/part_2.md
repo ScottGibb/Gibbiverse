@@ -124,13 +124,13 @@ The power here is we are using our platform agnostic driver code we talked about
 
 The best part is that because we have used the embedded-hal traits in our driver, we can easily switch between different platforms without changing any of the driver code. For example, we could run the same code on an embedded device using a different I2C implementation, and it would work seamlessly. An `async` example of this is shown in the [ESP32 example of the AP33772S driver](https://github.com/ScottGibb/AP33772S-rs/tree/main/examples/esp32c3).
 
-## CICD Testing with FT232H
+## CI/CD Testing with FT232H
 
-An exciting use case for the FT232H breakout board is to use it in CICD pipelines to run hardware-in-the-loop (HIL) tests on real devices. This allows us to validate our drivers against actual hardware, ensuring that they work correctly in real-world scenarios. Since we have the embedded-hal, we can test our driver on multiple hardware platforms without changing any of the driver code. An example of the CICD test bench setup is shown below:
+An exciting use case for the FT232H breakout board is to use it in CI/CD pipelines to run hardware-in-the-loop (HIL) tests on real devices. This allows us to validate our drivers against actual hardware, ensuring that they work correctly in real-world scenarios. Since we have the embedded-hal, we can test our driver on multiple hardware platforms without changing any of the driver code. An example of the CI/CD test bench setup is shown below:
 
 ![TMAG5273 Test Bench](/images/posts/creating_a_multi_platform_rust_driver/tmag_cicd_test_bench.drawio.svg)
 
-In a future blog post we will explore how to set up CICD pipelines using GitHub Actions to run HIL tests using the FT232H breakout board. For now the above example should give you a good idea of how this FT232H breakout board can be used on macOS, Linux and Raspberry Pi Linux to test your drivers on real hardware.
+In a future blog post we will explore how to set up CI/CD pipelines using GitHub Actions to run HIL tests using the FT232H breakout board. For now the above example should give you a good idea of how this FT232H breakout board can be used on macOS, Linux and Raspberry Pi Linux to test your drivers on real hardware.
 
 ## Tips
 
