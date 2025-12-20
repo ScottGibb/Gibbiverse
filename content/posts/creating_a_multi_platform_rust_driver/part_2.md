@@ -138,6 +138,8 @@ When you’re developing your rust drivers, it’s always a good idea to separat
 
 ---
 
+## Next Time
+
 Hopefully you found something useful here! If you have a disagreement or there's a better way of doing what I'm describing, please raise an issue on the [blog repository](https://github.com/ScottGibb/Gibbiverse) or submit a pull request with your improvements.
 
 - Previous Part: [Creating a multi platform Rust Driver: Embedded Hal](/posts/creating_a_multi_platform_rust_driver/part_1)
