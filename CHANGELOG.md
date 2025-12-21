@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.1](https://github.com/ScottGibb/Gibbiverse/compare/v0.6.0...v0.6.1) (2025-12-21)
+
+
+### Bug Fixes
+
+* Missing part 2 link ([c9115e1](https://github.com/ScottGibb/Gibbiverse/commit/c9115e10b5f91231ac8ec3e998b692e32365e3c1))
+
 ## [0.6.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.5.0...v0.6.0) (2025-12-20)
 
 ### Features
