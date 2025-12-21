@@ -28,7 +28,7 @@ This landing page gives a high-level overview of what I learned building multi-p
 We've split this series into manageable parts, each focusing on a key aspect of multi-platform Rust driver development:
 
 - [Part 1: Embedded HAL](/posts/creating_a_multi_platform_rust_driver/part_1)
-- *(More parts coming soon…)*
+- [Part 2: FT232H Breakout Board](/posts/creating_a_multi_platform_rust_driver/part_2)
 
 ---
 
