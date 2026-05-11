@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.3](https://github.com/ScottGibb/Gibbiverse/compare/v0.6.2...v0.6.3) (2026-05-11)
+
+
+### Bug Fixes
+
+* **ci:** bump Hugo version to 0.160.0 for Ananke theme compatibility ([8983e34](https://github.com/ScottGibb/Gibbiverse/commit/8983e346d2411073c0a22f02842e36806bd9fb05))
+
 ## [0.6.2](https://github.com/ScottGibb/Gibbiverse/compare/v0.6.1...v0.6.2) (2026-05-11)
 
 ### Bug Fixes
