@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.6.2](https://github.com/ScottGibb/Gibbiverse/compare/v0.6.1...v0.6.2) (2026-05-11)
+
+
+### Bug Fixes
+
+* add correct path to TMAG ([6dd93f1](https://github.com/ScottGibb/Gibbiverse/commit/6dd93f1597f223beb4984de53fa5c9b9ceef05da))
+* **docs:** add correct path to TMAG library ([b7f10be](https://github.com/ScottGibb/Gibbiverse/commit/b7f10be5851b3a24ad54121cdbe60a6e6405eb0d))
+
 ## [0.6.1](https://github.com/ScottGibb/Gibbiverse/compare/v0.6.0...v0.6.1) (2025-12-21)
 
 ### Bug Fixes
