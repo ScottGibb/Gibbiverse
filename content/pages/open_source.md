@@ -32,7 +32,7 @@ I’m a big fan of open source—where code is shared, bugs are squashed, and co
 
 [![AP33772S Repository](https://github-readme-stats-fast.vercel.app/api/pin/?username=scottgibb&repo=AP33772S-rs&theme=gruvbox)](https://github.com/scottgibb/AP33772S-rs)
 [![JSY-MK-194 Repository](https://github-readme-stats-fast.vercel.app/api/pin/?username=scottgibb&repo=JSY-MK-194-rs&theme=gruvbox)](https://github.com/scottgibb/JSY-MK-194-rs)
-[![TMAG5273 Repository](https://github-readme-stats-fast.vercel.app/api/pin/?username=dysonltd&repo=tmag5273&theme=gruvbox)](https://github.com/dysonltd/tmag5273)
+[![TMAG5273 Repository](https://github-readme-stats-fast.vercel.app/api/pin/?username=scottgibb&repo=tmag5273&theme=gruvbox)](https://github.com/scottgibb/tmag5273)
 [![paa5100je-pwm3901 Repository](https://github-readme-stats-fast.vercel.app/api/pin/?username=dysonltd&repo=paa5100je-pwm3901&theme=gruvbox)](https://github.com/dysonltd/paa5100je-pwm3901)
 [![mpr121-hal Repository](https://github-readme-stats-fast.vercel.app/api/pin/?username=SiebenCorgie&repo=mpr121-hal&theme=gruvbox)](https://github.com/SiebenCorgie/mpr121-hal)
 [![DRV2605-async Repository](https://github-readme-stats-fast.vercel.app/api/pin/?username=dysonltd&repo=drv2605-async&theme=gruvbox)](https://github.com/dysonltd/drv2605-async)
@@ -53,7 +53,7 @@ I’m a big fan of open source—where code is shared, bugs are squashed, and co
 [![HCRProbeMakerCL Repository](https://github-readme-stats-fast.vercel.app/api/pin/?username=scottgibb&repo=HCRProbeMakerCL&theme=gruvbox)](https://github.com/scottgibb/HCRProbeMakerCL)
 [![FreeClimber Repository](https://github-readme-stats-fast.vercel.app/api/pin/?username=adamspierer&repo=FreeClimber&theme=gruvbox)](https://github.com/adamspierer/FreeClimber)
 
-## Arm Contributions
+## [Arm](/experiences/arm/arm) Contributions
 
 [![Getting Started with Edge AI](https://github-readme-stats-fast.vercel.app/api/pin/?username=Arm-Examples&repo=Get-Started-with-Edge-AI&theme=gruvbox)](https://github.com/Arm-Examples/Get-Started-with-Edge-AI)
 
