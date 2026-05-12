@@ -300,7 +300,8 @@ advanced = [] # Used to enable lower level register access
 
 If you want to use it synchronously, you can just add the dependency with the `sync` feature:
 
-```toml[dependencies]
+```toml
+[dependencies]
 ap33772s-rs = { no-default-features = false, features = ["sync"] } # Pull in our driver with sync
 ```
 
