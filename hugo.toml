@@ -31,6 +31,8 @@ weight = 10
 
 [params]
 # site_logo = "/images/image.png" # This is currently too big
+body_classes = "helvetica bg-near-white"
+post_content_classes = "sans-serif"
 
 
 [params.ananke]
