@@ -41,6 +41,7 @@ The main processing unit of the Robot was a Raspberry Pi 3 running an object-ori
 I'm an Embedded engineer and with that, I like to develop Printed Circuit Boards and love to 3D print things. So I developed custom mounts and custom boards, due to the Rampaging Chariots guild being targeted at teenagers/children, one of the requirements was that the boards had to be simple enough for them to solder together. So I kept the designs simple, with through-hole components where possible. This increased the size of the boards but made assembly much easier. All the boards were connected via I2C or UART to the Raspberry Pi.
 
 {{< figure src="/images/experiences/building_an_autonomous_robot/hardware_design.png" alt="I2C Network" class="tc" >}}
+
 ### Electromagnetic Shielding
 
 A fun experience I had with the robot was when I was experimenting with PID control of the robot and was noticing I2C issues and forced shutdowns. It turns out the robot's motors (repurposed drill motors), were causing EMI spikes when maximum power was supplied causing I2C communication errors alongside forced shutdowns through a power off button being triggered. Eventually tin foil was used (wrapped in cardboard) to "shield" the motors EMI and prevent the system from being affected, a valid solution that did work!
