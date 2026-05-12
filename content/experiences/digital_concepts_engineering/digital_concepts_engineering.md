@@ -15,6 +15,7 @@ During my time as an Electrical Graduate, I was seconded to a small but highly i
 Shown below is their [**X Series platform**](https://dconcepts.co.uk/products/x-series/), one of the tracked robotic vehicles I had the opportunity to work with. It is a modular, ruggedised platform capable of supporting a wide range of sensors, payloads, and mission-specific equipment.
 
 {{< figure src="/images/experiences/dce/dce_x_series_logo.png" alt="DCE X-Series" class="tc" >}}
+
 ## The Task
 
 My primary responsibility at DCE was the development of a **Universal Robot Controller**, designed to interface with the company’s wide range of robotic and vehicular platforms. These included:
