@@ -135,7 +135,7 @@ defmt-rtt = { version = "1.0.0"}
 portable-atomic = {version = "1.10.0", features = ["critical-section"]}
 
 [dev-dependencies]
-embedded-test = { version = "0.6.0", features =["defmt"] }. 
+embedded-test = { version = "0.6.0", features =["defmt"] }
 tests-common = { path = "../../tests-common" }
 # The rest of the toml is cut off for conciseness.
 ```
