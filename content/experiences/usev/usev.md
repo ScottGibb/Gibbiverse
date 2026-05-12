@@ -46,6 +46,7 @@ Early on, I designed a self-healing CAN network with basic state monitoring and 
 As we added more and more telemetry (temperatures, voltages, performance data), the network scaled without compromising safety — which felt like a small miracle at the time.
 
 {{< figure src="/images/experiences/usev/can_network_breadboard.jpg" alt="CAN Network Breadboard" class="tc" >}}
+
 ### Standardising the Chaos
 
 By 2019, my focus shifted to two main goals:
