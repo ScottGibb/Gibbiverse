@@ -126,7 +126,7 @@ The best part is that because we have used the embedded-hal traits in our driver
 
 ## CI/CD Testing with FT232H
 
-An exciting use case for the FT232H breakout board is to use it in CI/CD pipelines to run hardware-in-the-loop (HIL) tests on real devices. This allows us to validate our drivers against actual hardware, ensuring that they work correctly in real-world scenarios. Since we have the embedded-hal, we can test our driver on multiple hardware platforms without changing any of the driver code. An example of the CI/CD test bench setup is shown below:
+An exciting use case for the FT232H breakout board is to use it in CI/CD pipelines to run hardware-in-the-loop (HIL) tests on real devices. This allows us to validate our drivers against actual hardware, ensuring that they work correctly in real-world scenarios. Since we have the embedded-hal, we can test our driver on multiple hardware platforms without changing any of the driver code. An example of the CI/CD test bench setup is shown below (this example is taken from the [TMAG5273 Driver](https://github.com/ScottGibb/tmag5273)):
 
 ![TMAG5273 Test Bench](/images/posts/creating_a_multi_platform_rust_driver/tmag_cicd_test_bench.drawio.svg)
 
@@ -143,4 +143,4 @@ When you’re developing your rust drivers, it’s always a good idea to separat
 Hopefully you found something useful here! If you have a disagreement or there's a better way of doing what I'm describing, please raise an issue on the [blog repository](https://github.com/ScottGibb/Gibbiverse) or submit a pull request with your improvements.
 
 - Previous Part: [Creating a multi platform Rust Driver: Embedded Hal](/posts/creating_a_multi_platform_rust_driver/part_1)
-- Next Part: Coming Soon!
+- Next Part: [Creating a multi platform Rust Driver: Using your driver on other platforms](/posts/creating_a_multi_platform_rust_driver/3)
