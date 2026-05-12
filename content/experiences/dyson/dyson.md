@@ -19,8 +19,7 @@ featured_image: '/images/experiences/dyson/dyson_hairdryers.png'
 
 After leaving [Babcock](/experiences/babcock/babcock), I joined **Dyson** as part of the **New Product Innovation Software Team (NST)**, a multidisciplinary group working across the entire technology stack—from embedded systems and application development through to cloud services and data science. During my time in the team, I developed numerous prototypes and explored a wide range of technologies, from bare-metal microcontrollers to embedded Linux platforms.
 
-![Dyson devices](/images/experiences/dyson/dyson_devices.png)
-
+{{< figure src="/images/experiences/dyson/dyson_devices.png" alt="Dyson devices" class="tc" >}}
 Due to IP restrictions, I’m unable to share specific details about the prototypes, their architectures, or their intended applications. However, *watch this space*—several of these early concepts are making their way toward full product development.
 
 ## Open Source

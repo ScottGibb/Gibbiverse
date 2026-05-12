@@ -13,8 +13,7 @@ draft: false
 featured_image: '/images/experiences/babcock/dce_follow_me.png'
 ---
 
-![test](/images/experiences/babcock/babcock_demo_day.jpeg)
-
+{{< figure src="/images/experiences/babcock/babcock_demo_day.jpeg" alt="test" class="tc" >}}
 After finishing my MEng in Computer and Electronic Systems at the University of Strathclyde, I joined Babcock as an Electronic and Electrical Graduate. This meant relocating from Glasgow to Bristol and officially kicking off my engineering career.
 
 My first placement was with the ACMS team, where I reviewed wiring diagrams and managed cabling for server racks. Eager for new challenges, I soon set my sights on Robotics and Autonomy—reaching out to [Sam Duffield](https://www.linkedin.com/in/sam-duffield/) and [Harry Bulman](https://www.linkedin.com/in/henry-harry-bulman/) in the Technology, Design and Innovation Team. That move marked the real start of my robotics journey.
@@ -29,8 +28,7 @@ This was also the most travel-heavy part of my career—jetting off to Spain, It
 
 One of the most fascinating projects I worked on was developing Micro Unmanned Ground Vehicles (uUGVs). Our goal was to build a working autonomy stack—not just to show off cool robotics, but to really understand which partners we’d need to integrate with and what capabilities the business required.
 
-![Micro Unmanned Ground Vehicle](/images/experiences/babcock/uUGV.jpeg)
-
+{{< figure src="/images/experiences/babcock/uUGV.jpeg" alt="Micro Unmanned Ground Vehicle" class="tc" >}}
 This meant diving into additive manufacturing with 3D printing, designing custom PCBs in KiCad, and writing C++ integration software to connect our robots to internal geolocation mapping systems—so we could actually control these machines out in the field.
 
 ### Secondment

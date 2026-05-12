@@ -12,8 +12,7 @@ draft: false
 
 In the previous part of the series we explored the embedded-hal traits and how they can be used to create platform agnostic drivers in Rust. In this part, we will focus on how we can use the [FT232H breakout board](https://thepihut.com/products/adafruit-ft232h-breakout-general-purpose-usb-to-gpio-spi-i2c) to interact with our I2C device from a desktop environment.
 
-![FT232H breakout Board](/images/posts/creating_a_multi_platform_rust_driver/ft232h_breakout_board.jpg)
-
+{{< figure src="/images/posts/creating_a_multi_platform_rust_driver/ft232h_breakout_board.jpg" alt="FT232H breakout Board" class="tc" >}}
 An ordinary laptop or desktop computer does not have native I2C support, so we need to use a USB to I2C bridge to communicate with our device. The [FT232H breakout board](https://thepihut.com/products/adafruit-ft232h-breakout-general-purpose-usb-to-gpio-spi-i2c) made by adafruit is a popular choice for this purpose, as it provides a simple and reliable way to interface with I2C devices from a computer. It also provides GPIO, SPI and has a [STEMMA QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma) connector for easy wiring. Allowing us to chain a bunch of I2C devices together.
 
 ## Setting Up the FT232H in Rust
@@ -128,8 +127,7 @@ The best part is that because we have used the embedded-hal traits in our driver
 
 An exciting use case for the FT232H breakout board is to use it in CI/CD pipelines to run hardware-in-the-loop (HIL) tests on real devices. This allows us to validate our drivers against actual hardware, ensuring that they work correctly in real-world scenarios. Since we have the embedded-hal, we can test our driver on multiple hardware platforms without changing any of the driver code. An example of the CI/CD test bench setup is shown below (this example is taken from the [TMAG5273 Driver](https://github.com/ScottGibb/tmag5273)):
 
-![TMAG5273 Test Bench](/images/posts/creating_a_multi_platform_rust_driver/tmag_cicd_test_bench.drawio.svg)
-
+{{< figure src="/images/posts/creating_a_multi_platform_rust_driver/tmag_cicd_test_bench.drawio.svg" alt="TMAG5273 Test Bench" class="tc" >}}
 In a future blog post we will explore how to set up CI/CD pipelines using GitHub Actions to run HIL tests using the FT232H breakout board. For now the above example should give you a good idea of how this FT232H breakout board can be used on macOS, Linux and Raspberry Pi Linux to test your drivers on real hardware.
 
 ## Tips
