@@ -317,5 +317,5 @@ To better understand its best to check out the actual code for the drivers and s
 
 Hopefully you found something useful here! If you have a disagreement or there's a better way of doing what I'm describing, please raise an issue on the [blog repository](https://github.com/ScottGibb/Gibbiverse) or submit a pull request with your improvements.
 
-- Previous Part: [Creating a multi platform Rust Driver: FT232H Breakout Board"](/posts/creating_a_multi_platform_rust_driver/part_2)
+- Previous Part: [Creating a multi platform Rust Driver: FT232H Breakout Board](/posts/creating_a_multi_platform_rust_driver/part_2)
 - Next Part: Coming Soon
