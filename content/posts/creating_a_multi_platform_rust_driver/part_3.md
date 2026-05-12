@@ -282,7 +282,7 @@ Now that weve covered both an Async and Sync project and given a bit of details 
 
 ```toml
 [dependencies]
-ap33772s-rs = { no-default-features = false, features = ["async"] } # Pull in our driver with async
+ap33772s-rs = { default-features = false, features = ["async"] } # Pull in our driver with async
 ```
 
 Now depending on driver your pulling in, there may be a default feature set, which dictates if its `async` or `sync` compatible, so you may have to set `default-features = false` and then specify the features you want to use. In the case of the AP33772S driver, it is `sync` compatible by default, so we need to set `default-features = false` and then specify the `async` feature to get the async version of the driver. We can see that from its [`Cargo.toml`](https://github.com/ScottGibb/AP33772S-rs/blob/main/Cargo.toml) file:
@@ -302,7 +302,7 @@ If you want to use it synchronously, you can just add the dependency with the `s
 
 ```toml
 [dependencies]
-ap33772s-rs = { no-default-features = false, features = ["sync"] } # Pull in our driver with sync
+ap33772s-rs = { default-features = false, features = ["sync"] } # Pull in our driver with sync
 ```
 
 ## Summary
