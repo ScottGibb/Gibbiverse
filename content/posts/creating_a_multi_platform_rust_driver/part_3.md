@@ -31,9 +31,9 @@ Each of these drivers are good examples of multi platform code which is ran and 
 
 ### TMAG5273
 
-- STM32 devices using STM32F072 with the `embassy-stm32` HAL using `sync` code
-- PiPico devices using the RP2040 with the `PiPico` HAL using `sync` code
-- ESP32 devices using the ESP32C3 with the `ESP-HAL` using  `sync` code
+- STM32 devices using [STM32F072](https://www.digikey.co.uk/en/products/detail/stmicroelectronics/NUCLEO-F072RB/5047984?gclsrc=aw.ds&gad_source=1&gad_campaignid=20265362335&gbraid=0AAAAADrbLlikjcCWutNvRgeYAEnhhcGPu&gclid=CjwKCAjwn4vQBhBsEiwAq3hhN0O-Sf0t2qVptvRfRRpfq_qA06G0BwaiY-rfJF4EAiSHtwWPnQxUThoC4Y4QAvD_BwE) with the `embassy-stm32` HAL using `sync` code
+- [PiPico](https://thepihut.com/products/raspberry-pi-pico) devices using the RP2040 with the `PiPico` HAL using `sync` code
+- ESP32 devices using the [ESP32C3](https://thepihut.com/products/seeed-xiao-esp32c3?srsltid=AfmBOooz9P6QS397kYYt2brxuQZ_F2TquFDizV5mCHYJvl-TaH1AJyWU) with the `ESP-HAL` using  `sync` code
 
 You may have noticed that this driver is only `sync` compatible, thats because we are not using the `maybe_async` dependency and thus are only supporting `embedded-hal`.
 
