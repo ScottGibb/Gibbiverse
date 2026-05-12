@@ -11,8 +11,7 @@ draft: false
 
 One of the earliest properly multidisciplinary engineering teams I was part of was the University of Strathclyde Eco Vehicle ([USEV](https://www.usev.co.uk/)). In short: a large group of slightly sleep-deprived students attempting to design, build, wire, debug, break, and then re‑debug a small-scale electric vehicle for the [Shell Eco‑Marathon](https://www.shellecomarathon.com/).
 
-![usev car](/images/experiences/usev/usev_track_day.jpeg)
-
+{{< figure src="/images/experiences/usev/usev_track_day.jpeg" alt="usev car" class="tc" >}}
 **It was chaotic, technical, occasionally stressful — and genuinely one of the most fun engineering experiences I’ve had.**
 
 ---
@@ -46,8 +45,7 @@ Early on, I designed a self-healing CAN network with basic state monitoring and 
 
 As we added more and more telemetry (temperatures, voltages, performance data), the network scaled without compromising safety — which felt like a small miracle at the time.
 
-![CAN Network Breadboard](/images/experiences/usev/can_network_breadboard.jpg)
-
+{{< figure src="/images/experiences/usev/can_network_breadboard.jpg" alt="CAN Network Breadboard" class="tc" >}}
 ### Standardising the Chaos
 
 By 2019, my focus shifted to two main goals:
@@ -146,8 +144,7 @@ The Motor Controller was the most critical board in the vehicle:
 - CAN-connected to the rest of the car
 It was designed in Eagle and written in C using System Workbench. Watching it behave correctly for the first time was deeply satisfying. Hats off to [Scott Lawson](https://www.linkedin.com/in/scott-lawson-ee-eng/) for the mentoring and designing this bit of kit.
 
-![Motor Controller](/images/experiences/usev/motor_controller.jpeg)
-
+{{< figure src="/images/experiences/usev/motor_controller.jpeg" alt="Motor Controller" class="tc" >}}
 ---
 
 ## Becoming a Driver

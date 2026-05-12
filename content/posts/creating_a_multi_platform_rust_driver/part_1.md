@@ -12,8 +12,7 @@ In this first part of the series, we'll focus on the [Embedded HAL](https://gith
 
 ## What is it?
 
-![banner](/images/posts/creating_a_multi_platform_rust_driver/embedded_hal_banner.png)
-
+{{< figure src="/images/posts/creating_a_multi_platform_rust_driver/embedded_hal_banner.png" alt="banner" class="tc" >}}
 The Embedded HAL provides a set of traits that let you write platform-agnostic code, making it much easier to support multiple hardware platforms. It doesn't just cover GPIO, I²C, and SPI—there are also traits for:
 
 - [embedded-hal-bus](https://github.com/rust-embedded/embedded-hal/tree/master/embedded-hal-bus) - provides traits for shared bus access, allowing multiple devices to share the same bus without conflicts.

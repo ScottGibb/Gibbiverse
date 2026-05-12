@@ -8,8 +8,7 @@ featured_image: '/images/ai/ai_banner_1.png'
 
 ## Who Am I?
 
-![Scott Gibb](/images/experiences/dce/ghost_robotics.jpeg)
-
+{{< figure src="/images/experiences/dce/ghost_robotics.jpeg" alt="Scott Gibb" class="tc" >}}
 Hi, I'm Scott Gibb, a Computer and Electronics Engineer with a knack for designing and building cool stuff. My passions include 3D printing, electronics, programming, and pretty much anything tech-related.
 
 Currently, I'm working as an Embedded Software Engineer at Arm, based in Cambridge, UK.
@@ -48,4 +47,4 @@ Next stop: [Dyson](/experiences/dyson/dyson)! I jumped into the commercial world
 
 My latest adventure has taken me to Arm in Cambridge, working with the Edge IoT Solutions Team. Stay tuned for more updates on what I'm building next!
 
-![Experiences](/images/ai/my_experiences_banner.png)
+{{< figure src="/images/ai/my_experiences_banner.png" alt="Experiences" class="tc" >}}
