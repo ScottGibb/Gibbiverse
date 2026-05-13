@@ -158,9 +158,9 @@ arbitrary-int = "2.0.0"
 
 ### Adding a Maybe-Async Driver with Embassy
 
-Now we might want to use our driver on another platform, or use our driver in an `async` fashion, this is why its important to use a crate such as `maybe-async` as it allows us to write the code once and since the `embedded-hal` and `embedded-hal-async` are essentially the same we can swap between them at compile time.
+Now we might want to use our driver on another platform, or use our driver in an `async` fashion, this is why it’s important to use a crate such as `maybe-async` as it allows us to write the code once and since the `embedded-hal` and `embedded-hal-async` are essentially the same we can swap between them at compile time.
 
-Now in the microcontoller world, a popular `aync` framework is Embassy and it comes with a lot of support for different vendors, it not only provides the `async executor` but also HALs for each of the devies. In this blogs example we are going to use the `esp-hal` which comes with `async` built in unlike `stm32f1xx-hal`.
+Now in the microcontroller world, a popular `async` framework is Embassy and it comes with a lot of support for different vendors, it not only provides the `async executor` but also HALs for each of the devices. In this blog’s example we are going to use the `esp-hal` which comes with `async` built in unlike `stm32f1xx-hal`.
 
 For that our project structure might look like this (Example taken from the [AP33772S Example](https://github.com/ScottGibb/AP33772S-rs/tree/main/examples/esp32c3)):
 
