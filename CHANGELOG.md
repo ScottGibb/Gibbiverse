@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.7.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.6.3...v0.7.0) (2026-05-13)
+
+
+### Features
+
+* add idea for part 7 ([826b01e](https://github.com/ScottGibb/Gibbiverse/commit/826b01ed24d6c3acc1e11162fe57b9fc9c2f8231))
+* add part 3 ([e077d23](https://github.com/ScottGibb/Gibbiverse/commit/e077d23b1ef3cb50084f7f325afa3dbe21553e8f))
+
+
+### Bug Fixes
+
+* add links to dev boards ([a20b116](https://github.com/ScottGibb/Gibbiverse/commit/a20b11658a1053ef82fdd2e072873f91e304cbee))
+* center all images ([304d678](https://github.com/ScottGibb/Gibbiverse/commit/304d6788417fcb0cf0e5718edd5df2b8252a068a))
+* correct cargo feature flag examples ([5f3fc08](https://github.com/ScottGibb/Gibbiverse/commit/5f3fc08a8ce9677bf09fd3130d05cdfa2d3032df))
+* Potential fix for pull request finding ([a1640bb](https://github.com/ScottGibb/Gibbiverse/commit/a1640bb0e00113ef27a7240aae3999db98cb1d2c))
+* Potential fix for pull request finding ([179b103](https://github.com/ScottGibb/Gibbiverse/commit/179b103d3c6dbd739026882bddfb42488975fbb7))
+* Potential fix for pull request finding ([d71ee18](https://github.com/ScottGibb/Gibbiverse/commit/d71ee1881aaaa2d39130689ac695c0fc46869568))
+* Potential fix for pull request finding ([c5b5553](https://github.com/ScottGibb/Gibbiverse/commit/c5b5553fbbdc1d7f5eac30033108ebb664b88deb))
+* remove dduplicate open-source badge ([63bc6ad](https://github.com/ScottGibb/Gibbiverse/commit/63bc6adc7d6082a7bbf4e92aad23ff220e24680d))
+* spelling mistakes ([9a21d06](https://github.com/ScottGibb/Gibbiverse/commit/9a21d06ec98782f5e0834a67f5abd633ec1b6cc3))
+* update font - make it easier to read ([fb3a1db](https://github.com/ScottGibb/Gibbiverse/commit/fb3a1dbae4bcc8791a5277a786631e25747d976e))
+
 ## [0.6.3](https://github.com/ScottGibb/Gibbiverse/compare/v0.6.2...v0.6.3) (2026-05-11)
 
 ### Bug Fixes
