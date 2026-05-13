@@ -2,12 +2,10 @@
 
 ## [0.7.0](https://github.com/ScottGibb/Gibbiverse/compare/v0.6.3...v0.7.0) (2026-05-13)
 
-
 ### Features
 
 * add idea for part 7 ([826b01e](https://github.com/ScottGibb/Gibbiverse/commit/826b01ed24d6c3acc1e11162fe57b9fc9c2f8231))
 * add part 3 ([e077d23](https://github.com/ScottGibb/Gibbiverse/commit/e077d23b1ef3cb50084f7f325afa3dbe21553e8f))
-
 
 ### Bug Fixes
 
